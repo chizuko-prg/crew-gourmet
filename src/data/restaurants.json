@@ -1,0 +1,727 @@
+[
+  {
+    "id": "1",
+    "name": "你好（ニーハオ）本店",
+    "airport": "羽田",
+    "area": "蒲田",
+    "access": "京急蒲田/JR蒲田",
+    "genre": "中華・餃子",
+    "specialty": "羽根つき餃子（発祥）",
+    "crewSummary": [
+      "羽根つき餃子が名物で航空関係者に人気",
+      "パリパリ食感で1個が大きくボリュームあり",
+      "安くて満足度が高い",
+      "仕事帰りの定番として通う人多数"
+    ],
+    "hours": "11:30〜23:00頃",
+    "closedDays": "不定休",
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": true,
+      "walkable": true,
+      "takeout": null,
+      "cashless": null,
+      "quick": true,
+      "drink": false
+    },
+    "tags": [
+      "solo",
+      "walkable",
+      "quick"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-07-09",
+    "addedAt": "2026-07-08",
+    "mapQuery": "你好（ニーハオ）本店 蒲田 羽田"
+  },
+  {
+    "id": "2",
+    "name": "歓迎（ホアンヨン）本店",
+    "airport": "羽田",
+    "area": "蒲田",
+    "access": "JR蒲田 徒歩圏",
+    "genre": "中華・餃子",
+    "specialty": "羽根つき餃子・台湾ラーメン",
+    "crewSummary": [
+      "蒲田餃子御三家の一つとして航空関係者に人気",
+      "羽根つき餃子と台湾ラーメンが定番"
+    ],
+    "hours": "11:30〜14:00/17:00〜23:00（日〜22:00）",
+    "closedDays": null,
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": true,
+      "walkable": true,
+      "takeout": null,
+      "cashless": null,
+      "quick": true,
+      "drink": false
+    },
+    "tags": [
+      "solo",
+      "walkable",
+      "quick"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-07-09",
+    "addedAt": "2026-07-08",
+    "mapQuery": "歓迎（ホアンヨン）本店 蒲田 羽田"
+  },
+  {
+    "id": "3",
+    "name": "金春（コンパル）本館",
+    "airport": "羽田",
+    "area": "蒲田",
+    "access": "京急蒲田 徒歩1分",
+    "genre": "中華・餃子",
+    "specialty": "羽根つき餃子・大連家庭料理",
+    "crewSummary": [
+      "蒲田餃子御三家の一つとして航空関係者に人気",
+      "大連家庭料理のメニューも豊富"
+    ],
+    "hours": "11:30〜23:00（L.O.22:30）",
+    "closedDays": "年中無休",
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": true,
+      "walkable": true,
+      "takeout": null,
+      "cashless": null,
+      "quick": true,
+      "drink": false
+    },
+    "tags": [
+      "solo",
+      "walkable",
+      "quick"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-07-09",
+    "addedAt": "2026-07-08",
+    "mapQuery": "金春（コンパル）本館 蒲田 羽田"
+  },
+  {
+    "id": "4",
+    "name": "Pizzeria Trattoria Marco（マルコ）",
+    "airport": "羽田",
+    "area": "下丸子",
+    "access": "東急多摩川線 下丸子",
+    "genre": "イタリアン",
+    "specialty": "石窯ローマピッツァ・自家製パスタ",
+    "crewSummary": [
+      "友人同士のランチ利用が定番",
+      "パスタ・ピッツァの評価が高い",
+      "小さめの店で落ち着く雰囲気"
+    ],
+    "hours": "11:30〜15:00/17:00〜22:00",
+    "closedDays": "日曜",
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": null,
+      "walkable": null,
+      "takeout": null,
+      "cashless": null,
+      "quick": null,
+      "drink": false
+    },
+    "tags": [],
+    "statusNote": null,
+    "checkedAt": "2026-07-09",
+    "addedAt": "2026-07-08",
+    "mapQuery": "Pizzeria Trattoria Marco（マルコ） 下丸子 羽田"
+  },
+  {
+    "id": "5",
+    "name": "やきとん 豚番長 蒲田西口店",
+    "airport": "羽田",
+    "area": "蒲田",
+    "access": "JR蒲田西口",
+    "genre": "やきとん・居酒屋",
+    "specialty": "もつ焼き・マカロニサラダ・つくね",
+    "crewSummary": [
+      "TVで紹介された航空関係者おすすめの店",
+      "もつ焼き・マカロニサラダが好評",
+      "2,000円前後で満足できるコスパ",
+      "女性の一人客も多く入りやすい"
+    ],
+    "hours": "平日16:00〜24:00/土日祝14:00〜23:00",
+    "closedDays": "年中無休",
+    "features": {
+      "breakfast": false,
+      "lateNight": null,
+      "solo": true,
+      "walkable": true,
+      "takeout": null,
+      "cashless": null,
+      "quick": null,
+      "drink": true
+    },
+    "tags": [
+      "solo",
+      "walkable",
+      "drink"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-07-09",
+    "addedAt": "2026-07-08",
+    "mapQuery": "やきとん 豚番長 蒲田西口店 蒲田 羽田"
+  },
+  {
+    "id": "7",
+    "name": "Jet Lag Club",
+    "airport": "成田",
+    "area": "成田駅圏",
+    "access": "JR/京成成田 徒歩圏",
+    "genre": "バー・パブ",
+    "specialty": "クラフトビール・ダーツ",
+    "crewSummary": [
+      "世界各国の航空関係者が集まるバー",
+      "店内は英語が主流で海外のような雰囲気",
+      "航空グッズ多数、ダーツやビリヤードも"
+    ],
+    "hours": null,
+    "closedDays": null,
+    "features": {
+      "breakfast": false,
+      "lateNight": null,
+      "solo": true,
+      "walkable": true,
+      "takeout": false,
+      "cashless": null,
+      "quick": null,
+      "drink": true
+    },
+    "tags": [
+      "solo",
+      "walkable",
+      "drink"
+    ],
+    "statusNote": "営業時間は最新情報をご確認ください",
+    "checkedAt": "2026-07-09",
+    "addedAt": "2026-07-08",
+    "mapQuery": "Jet Lag Club 成田駅圏 成田"
+  },
+  {
+    "id": "8",
+    "name": "TANAA'S Barge Inn（旧 The Barge Inn）",
+    "airport": "成田",
+    "area": "成田駅圏",
+    "access": "JR/京成成田 徒歩圏",
+    "genre": "英国風パブ",
+    "specialty": "ビール・軽食",
+    "crewSummary": [
+      "海外の航空関係者で賑わうパブ",
+      "広い店内で席の選択肢が多い",
+      "週末はDJイベントで賑やか"
+    ],
+    "hours": "12:00〜翌5:00",
+    "closedDays": "無休",
+    "features": {
+      "breakfast": false,
+      "lateNight": true,
+      "solo": true,
+      "walkable": true,
+      "takeout": false,
+      "cashless": null,
+      "quick": null,
+      "drink": true
+    },
+    "tags": [
+      "lateNight",
+      "solo",
+      "walkable",
+      "drink"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-07-09",
+    "addedAt": "2026-07-08",
+    "mapQuery": "TANAA'S Barge Inn（旧 The Barge Inn） 成田駅圏 成田"
+  },
+  {
+    "id": "9",
+    "name": "ラーメンばやし",
+    "airport": "成田",
+    "area": "成田駅圏",
+    "access": "JR/京成成田 徒歩圏",
+    "genre": "ラーメン",
+    "specialty": "正統派ラーメン・クルーノート",
+    "crewSummary": [
+      "航空関係者御用達としてTV紹介多数",
+      "航空会社ごとの「クルーノート」が名物",
+      "オーソドックスで安心感のあるラーメン"
+    ],
+    "hours": "11:00〜20:30頃（情報揺れあり）",
+    "closedDays": null,
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": true,
+      "walkable": true,
+      "takeout": null,
+      "cashless": null,
+      "quick": true,
+      "drink": false
+    },
+    "tags": [
+      "solo",
+      "walkable",
+      "quick"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-07-09",
+    "addedAt": "2026-07-08",
+    "mapQuery": "ラーメンばやし 成田駅圏 成田"
+  },
+  {
+    "id": "10",
+    "name": "Teco Teco（テコテコ）",
+    "airport": "成田",
+    "area": "成田駅圏",
+    "access": "JR/京成成田 徒歩3分",
+    "genre": "ブラジル料理",
+    "specialty": "シュラスコ（プレート）",
+    "crewSummary": [
+      "海外の航空関係者に人気",
+      "本場仕込みのシュラスコが看板",
+      "外国語が飛び交う国際的な雰囲気"
+    ],
+    "hours": "火〜木11:30〜14:30/17:30〜22:30、土日11:30〜22:30",
+    "closedDays": "月曜",
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": null,
+      "walkable": true,
+      "takeout": null,
+      "cashless": null,
+      "quick": null,
+      "drink": false
+    },
+    "tags": [
+      "walkable"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-07-09",
+    "addedAt": "2026-07-08",
+    "mapQuery": "Teco Teco（テコテコ） 成田駅圏 成田"
+  },
+  {
+    "id": "11",
+    "name": "ROUTEMAP COFFEE ROASTERS",
+    "airport": "成田",
+    "area": "成田駅圏",
+    "access": "JR成田東口 徒歩3分",
+    "genre": "カフェ",
+    "specialty": "スペシャルティコーヒー",
+    "crewSummary": [
+      "航空関係者の口コミで広まったカフェ",
+      "朝7時半からの営業が便利",
+      "英語対応のフレンドリーな接客"
+    ],
+    "hours": "7:30〜15:00（日祝〜11:30）",
+    "closedDays": "水・木",
+    "features": {
+      "breakfast": true,
+      "lateNight": false,
+      "solo": true,
+      "walkable": true,
+      "takeout": true,
+      "cashless": null,
+      "quick": true,
+      "drink": false
+    },
+    "tags": [
+      "breakfast",
+      "solo",
+      "walkable",
+      "quick",
+      "takeout"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-07-09",
+    "addedAt": "2026-07-08",
+    "mapQuery": "ROUTEMAP COFFEE ROASTERS 成田駅圏 成田"
+  },
+  {
+    "id": "12",
+    "name": "千歳ラム工房 やまじん 総本店",
+    "airport": "新千歳",
+    "area": "千歳駅圏",
+    "access": "JR千歳 ぎおん通り",
+    "genre": "ジンギスカン",
+    "specialty": "生ラム（肉の山本直送）",
+    "crewSummary": [
+      "TV番組で航空関係者が紹介した店",
+      "精肉店直送の生ラムが絶品と評判"
+    ],
+    "hours": "17:30〜21:50（L.O.21:20）",
+    "closedDays": "火曜",
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": null,
+      "walkable": true,
+      "takeout": null,
+      "cashless": null,
+      "quick": null,
+      "drink": false
+    },
+    "tags": [
+      "walkable"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-07-09",
+    "addedAt": "2026-07-08",
+    "mapQuery": "千歳ラム工房 やまじん 総本店 千歳駅圏 新千歳"
+  },
+  {
+    "id": "13",
+    "name": "松尾ジンギスカン 新千歳空港店",
+    "airport": "新千歳",
+    "area": "空港ターミナル内",
+    "access": "国内線ターミナル3F・駅徒歩1分",
+    "genre": "ジンギスカン",
+    "specialty": "特製タレ・ジンギスカン弁当",
+    "crewSummary": [
+      "空港スタッフ推薦の空港内店舗",
+      "無加熱の特製タレが自慢",
+      "お土産用のジンギスカン弁当あり"
+    ],
+    "hours": "10:00〜21:00（L.O.20:30）",
+    "closedDays": "年中無休",
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": true,
+      "walkable": null,
+      "takeout": true,
+      "cashless": true,
+      "quick": null,
+      "drink": false
+    },
+    "tags": [
+      "solo",
+      "cashless",
+      "takeout"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-07-09",
+    "addedAt": "2026-07-08",
+    "mapQuery": "松尾ジンギスカン 新千歳空港店 空港ターミナル内 新千歳"
+  },
+  {
+    "id": "14",
+    "name": "酒呑蕎食〆TAGURU（タグル）",
+    "airport": "羽田",
+    "area": "蒲田",
+    "access": "JR蒲田 徒歩3分",
+    "genre": "蕎麦・日本酒",
+    "specialty": "自家製粉・手打ち十割蕎麦、神奈川の日本酒",
+    "crewSummary": [
+      "落ち着いた和モダンな店内",
+      "店主が親しみやすく居心地が良い",
+      "十割蕎麦と日本酒をゆっくり楽しめる",
+      "一人でも入りやすい"
+    ],
+    "hours": "18:00〜23:00",
+    "closedDays": "月曜",
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": true,
+      "walkable": true,
+      "takeout": false,
+      "cashless": null,
+      "quick": null,
+      "drink": true
+    },
+    "tags": [
+      "solo",
+      "walkable",
+      "drink"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-07-09",
+    "addedAt": "2026-07-09",
+    "mapQuery": "酒呑蕎食〆TAGURU（タグル） 蒲田 羽田"
+  },
+  {
+    "id": "15",
+    "name": "バー パドレ（BAR PADRE）",
+    "airport": "羽田",
+    "area": "蒲田",
+    "access": "JR蒲田 徒歩圏",
+    "genre": "バー",
+    "specialty": "旬のフルーツカクテル",
+    "crewSummary": [
+      "旬のフルーツカクテルが看板",
+      "8席カウンターの大人の隠れ家",
+      "マスターとの会話が楽しめる",
+      "一人でも入りやすい"
+    ],
+    "hours": null,
+    "closedDays": null,
+    "features": {
+      "breakfast": false,
+      "lateNight": null,
+      "solo": true,
+      "walkable": true,
+      "takeout": false,
+      "cashless": null,
+      "quick": null,
+      "drink": true
+    },
+    "tags": [
+      "solo",
+      "walkable",
+      "drink"
+    ],
+    "statusNote": "営業時間は最新情報をご確認ください",
+    "checkedAt": "2026-07-09",
+    "addedAt": "2026-07-09",
+    "mapQuery": "バー パドレ（BAR PADRE） 蒲田 羽田"
+  },
+  {
+    "id": "22",
+    "name": "もつ焼き いとや",
+    "airport": "羽田",
+    "area": "蒲田",
+    "access": "JR蒲田 徒歩3分",
+    "genre": "もつ焼き・大衆酒場",
+    "specialty": "レバトロ刺し・もつ煮込み",
+    "crewSummary": [
+      "現役航空関係者のブログ「飲み食い編」で紹介",
+      "大衆酒場系でコスパ良好",
+      "土日祝は13時半から昼飲み可"
+    ],
+    "hours": "平日16:00〜23:00/土日祝13:30〜20:00（売切次第終了）",
+    "closedDays": "不定休",
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": null,
+      "walkable": true,
+      "takeout": null,
+      "cashless": null,
+      "quick": null,
+      "drink": true
+    },
+    "tags": [
+      "walkable",
+      "drink"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-07-10",
+    "addedAt": "2026-07-10",
+    "mapQuery": "もつ焼き いとや 蒲田 羽田"
+  },
+  {
+    "id": "23",
+    "name": "レバーランド",
+    "airport": "羽田",
+    "area": "蒲田",
+    "access": "JR蒲田 徒歩圏",
+    "genre": "もつ焼き・立ち飲み",
+    "specialty": "とろけるレバー",
+    "crewSummary": [
+      "現役航空関係者のブログ「飲み食い編」で紹介",
+      "レバー特化の立ち飲み酒場",
+      "「第2の我が家」がコンセプトの寛げる店"
+    ],
+    "hours": "平日16:00〜23:00/土日祝13:00〜23:00（情報揺れあり）",
+    "closedDays": "不定休",
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": true,
+      "walkable": true,
+      "takeout": null,
+      "cashless": null,
+      "quick": null,
+      "drink": true
+    },
+    "tags": [
+      "solo",
+      "walkable",
+      "drink"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-07-10",
+    "addedAt": "2026-07-10",
+    "mapQuery": "レバーランド 蒲田 羽田"
+  },
+  {
+    "id": "24",
+    "name": "うみの家",
+    "airport": "羽田",
+    "area": "蒲田",
+    "access": "JR蒲田東口",
+    "genre": "海鮮居酒屋",
+    "specialty": "牡蠣",
+    "crewSummary": [
+      "現役航空関係者のブログ「飲み食い編」で紹介",
+      "牡蠣が看板の海鮮居酒屋"
+    ],
+    "hours": null,
+    "closedDays": null,
+    "features": {
+      "breakfast": null,
+      "lateNight": null,
+      "solo": null,
+      "walkable": true,
+      "takeout": null,
+      "cashless": null,
+      "quick": null,
+      "drink": true
+    },
+    "tags": [
+      "walkable",
+      "drink"
+    ],
+    "statusNote": "営業時間は最新情報をご確認ください",
+    "checkedAt": "2026-07-10",
+    "addedAt": "2026-07-10",
+    "mapQuery": "うみの家 蒲田 羽田"
+  },
+  {
+    "id": "25",
+    "name": "なっぱごちそう 蒲田（旧 なっぱSUN）",
+    "airport": "羽田",
+    "area": "蒲田",
+    "access": "蒲田/蓮沼",
+    "genre": "居酒屋・ダイニング",
+    "specialty": "野菜料理・隠れ家個室",
+    "crewSummary": [
+      "現役航空関係者のブログ「飲み食い編」で紹介（旧店名なっぱSUN）",
+      "秘密基地のような楽しい店内",
+      "個室ありでゆっくりできる"
+    ],
+    "hours": "火〜土17:00〜23:30",
+    "closedDays": "月・日",
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": null,
+      "walkable": true,
+      "takeout": null,
+      "cashless": null,
+      "quick": null,
+      "drink": true
+    },
+    "tags": [
+      "walkable",
+      "drink"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-07-10",
+    "addedAt": "2026-07-10",
+    "mapQuery": "なっぱごちそう 蒲田（旧 なっぱSUN） 蒲田 羽田"
+  },
+  {
+    "id": "26",
+    "name": "大衆酒場BEETLE 本店",
+    "airport": "羽田",
+    "area": "蒲田",
+    "access": "JR蒲田西口 徒歩2分",
+    "genre": "大衆酒場",
+    "specialty": "豊富なメニューと安さ",
+    "crewSummary": [
+      "現役航空関係者のブログ「飲み食い編」で紹介",
+      "安くて居心地の良いネオ大衆酒場",
+      "土日祝は昼12時から通し営業"
+    ],
+    "hours": "平日16:00〜翌1:00/土日祝12:00〜翌1:00",
+    "closedDays": "ほぼ無休（年末年始のみ）",
+    "features": {
+      "breakfast": false,
+      "lateNight": true,
+      "solo": null,
+      "walkable": true,
+      "takeout": null,
+      "cashless": null,
+      "quick": null,
+      "drink": true
+    },
+    "tags": [
+      "lateNight",
+      "walkable",
+      "drink"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-07-10",
+    "addedAt": "2026-07-10",
+    "mapQuery": "大衆酒場BEETLE 本店 蒲田 羽田"
+  },
+  {
+    "id": "27",
+    "name": "シャングリーラ 蒲田店",
+    "airport": "羽田",
+    "area": "蒲田",
+    "access": "蒲田駅 徒歩3分",
+    "genre": "インド・ネパール料理",
+    "specialty": "カレー食べ放題・ランチ",
+    "crewSummary": [
+      "現役航空関係者のブログ「食事メイン編」で紹介",
+      "カレー10種以上のランチが人気",
+      "食べ放題コースあり"
+    ],
+    "hours": "11:00〜15:00/17:00〜23:00",
+    "closedDays": "ほぼ無休（年末年始のみ）",
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": null,
+      "walkable": true,
+      "takeout": null,
+      "cashless": null,
+      "quick": null,
+      "drink": false
+    },
+    "tags": [
+      "walkable"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-07-10",
+    "addedAt": "2026-07-10",
+    "mapQuery": "シャングリーラ 蒲田店 蒲田 羽田"
+  },
+  {
+    "id": "28",
+    "name": "BAR TIME（バー タイム）",
+    "airport": "羽田",
+    "area": "蒲田",
+    "access": "京急蒲田/JR蒲田",
+    "genre": "バー",
+    "specialty": "シングルモルト・フレッシュフルーツカクテル",
+    "crewSummary": [
+      "現役航空関係者のブログ「BAR編」で紹介",
+      "落ち着いた雰囲気で深夜まで営業",
+      "ウイスキーとフルーツカクテルが看板"
+    ],
+    "hours": "月〜土18:00〜翌4:00/日18:00〜翌1:00",
+    "closedDays": "不定休",
+    "features": {
+      "breakfast": false,
+      "lateNight": true,
+      "solo": null,
+      "walkable": true,
+      "takeout": false,
+      "cashless": null,
+      "quick": null,
+      "drink": true
+    },
+    "tags": [
+      "lateNight",
+      "walkable",
+      "drink"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-07-10",
+    "addedAt": "2026-07-10",
+    "mapQuery": "BAR TIME（バー タイム） 蒲田 羽田"
+  }
+]

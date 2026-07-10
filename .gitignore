@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.DS_Store
+*.local
+
+# 生のExcelマスターは公開リポジトリへコミットしない。
+# ローカルで npm run data:build / data:check の変換元としてのみ使用する。
+data/crew-gourmet-master.xlsx
+
+# 開発時のみ使用する引き継ぎ資料・設計資料（公開リポジトリには含めない）
+START_HERE.md
+docs/
+design/

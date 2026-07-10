@@ -1,0 +1,20 @@
+.safety-card {
+  margin-top: 16px;
+  padding: 16px;
+  border: 1px dashed var(--color-caution-border);
+  background: var(--color-caution-bg);
+  border-radius: var(--radius-lg);
+}
+
+.safety-card__text {
+  margin: 0;
+  color: var(--color-caution-text);
+  font-size: var(--font-size-caption);
+  line-height: 1.7;
+}
+
+.safety-card__text a {
+  color: var(--color-primary-hover);
+  font-weight: 700;
+  text-decoration-thickness: 2px;
+}

@@ -1,0 +1,43 @@
+:root {
+  /* 背景・面 */
+  --color-bg: #fbf3e6;
+  --color-surface: #ffffff;
+  --color-border: #e8d2b0;
+
+  /* メイン（アンバー） */
+  --color-primary: #e2921f;
+  --color-primary-hover: #c97d15;
+  --color-primary-text: #3a2415;
+
+  /* タグ（淡いオレンジ＋濃いブラウン文字） */
+  --color-tag-bg: #f8deb9;
+  --color-tag-text: #5c3b1e;
+  --color-tag-selected-bg: var(--color-primary);
+  --color-tag-selected-text: var(--color-primary-text);
+
+  /* 文字・アクセント（ブラウン） */
+  --color-text: #4a3222;
+  --color-text-secondary: #8a6a4e;
+  --color-heading: #3a2415;
+
+  /* 注意カード（赤ではなくアンバー系） */
+  --color-caution-bg: #fdf0d9;
+  --color-caution-border: #e7b65c;
+  --color-caution-text: #6b4a15;
+
+  /* フォーカス表示 */
+  --color-focus-ring: #b4560a;
+
+  /* タイポグラフィ */
+  --font-size-body: 17px;
+  --font-size-name: 21px;
+  --font-size-caption: 16px;
+  --font-size-heading: 26px;
+
+  /* レイアウト */
+  --tap-target-min: 48px;
+  --content-max-width: 480px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-pill: 999px;
+}

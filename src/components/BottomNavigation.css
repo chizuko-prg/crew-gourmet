@@ -1,0 +1,29 @@
+.bottom-nav {
+  position: sticky;
+  bottom: 0;
+  z-index: 10;
+  display: flex;
+  background: var(--color-surface);
+  border-top: 1px solid var(--color-border);
+  padding: 4px 8px calc(4px + env(safe-area-inset-bottom, 0px));
+}
+
+.bottom-nav__item {
+  flex: 1;
+  min-height: var(--tap-target-min);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  text-decoration: none;
+  color: var(--color-text-secondary);
+  font-size: 12px;
+  border-radius: var(--radius-md);
+  padding: 6px 4px;
+}
+
+.bottom-nav__item--active {
+  color: var(--color-primary-hover);
+  font-weight: 700;
+}

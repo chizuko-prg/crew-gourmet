@@ -1,0 +1,23 @@
+.restaurants-filter-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 16px 0;
+}
+
+.restaurants-filter-row .chip-row {
+  flex: 1;
+}
+
+.restaurants-clear {
+  flex: none;
+  min-height: var(--tap-target-min);
+  padding: 8px 14px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-caption);
+  font-weight: 600;
+  cursor: pointer;
+}
