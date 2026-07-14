@@ -11,3 +11,7 @@ data/crew-gourmet-master.xlsx
 START_HERE.md
 docs/
 design/
+
+# Python テスト実行時の生成物
+__pycache__/
+*.pyc

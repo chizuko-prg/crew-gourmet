@@ -31,7 +31,7 @@
       "quick"
     ],
     "statusNote": null,
-    "checkedAt": "2026-07-09",
+    "checkedAt": "2026-07-14",
     "addedAt": "2026-07-08",
     "mapQuery": "你好（ニーハオ）本店 蒲田 羽田"
   },
@@ -48,7 +48,7 @@
       "羽根つき餃子と台湾ラーメンが定番"
     ],
     "hours": "11:30〜14:00/17:00〜23:00（日〜22:00）",
-    "closedDays": null,
+    "closedDays": "年中無休",
     "features": {
       "breakfast": false,
       "lateNight": false,
@@ -65,7 +65,7 @@
       "quick"
     ],
     "statusNote": null,
-    "checkedAt": "2026-07-09",
+    "checkedAt": "2026-07-14",
     "addedAt": "2026-07-08",
     "mapQuery": "歓迎（ホアンヨン）本店 蒲田 羽田"
   },
@@ -99,7 +99,7 @@
       "quick"
     ],
     "statusNote": null,
-    "checkedAt": "2026-07-09",
+    "checkedAt": "2026-07-14",
     "addedAt": "2026-07-08",
     "mapQuery": "金春（コンパル）本館 蒲田 羽田"
   },
@@ -130,7 +130,7 @@
     },
     "tags": [],
     "statusNote": null,
-    "checkedAt": "2026-07-09",
+    "checkedAt": "2026-07-14",
     "addedAt": "2026-07-08",
     "mapQuery": "Pizzeria Trattoria Marco（マルコ） 下丸子 羽田"
   },
@@ -305,7 +305,7 @@
       "walkable"
     ],
     "statusNote": null,
-    "checkedAt": "2026-07-09",
+    "checkedAt": "2026-07-10",
     "addedAt": "2026-07-08",
     "mapQuery": "Teco Teco（テコテコ） 成田駅圏 成田"
   },
@@ -325,7 +325,7 @@
     "hours": "7:30〜15:00（日祝〜11:30）",
     "closedDays": "水・木",
     "features": {
-      "breakfast": true,
+      "breakfast": false,
       "lateNight": false,
       "solo": true,
       "walkable": true,
@@ -335,7 +335,6 @@
       "drink": false
     },
     "tags": [
-      "breakfast",
       "solo",
       "walkable",
       "quick",
@@ -723,5 +722,297 @@
     "checkedAt": "2026-07-10",
     "addedAt": "2026-07-10",
     "mapQuery": "BAR TIME（バー タイム） 蒲田 羽田"
+  },
+  {
+    "id": "29",
+    "name": "かどや飯店",
+    "airport": "伊丹",
+    "area": "蛍池",
+    "access": "阪急宝塚線 蛍池 徒歩10分",
+    "genre": "町中華・餃子",
+    "specialty": "焼き餃子",
+    "crewSummary": [
+      "航空関係者のX投稿で、空港から徒歩圏のおすすめ店として紹介",
+      "1970年創業の町中華で焼き餃子が名物",
+      "深夜25時まで営業で遅い時間でも利用しやすい"
+    ],
+    "hours": "月〜土18:00〜25:00（L.O.24:30）",
+    "closedDays": null,
+    "features": {
+      "breakfast": false,
+      "lateNight": true,
+      "solo": null,
+      "walkable": null,
+      "takeout": null,
+      "cashless": null,
+      "quick": null,
+      "drink": false
+    },
+    "tags": [
+      "lateNight"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-07-10",
+    "addedAt": "2026-07-10",
+    "mapQuery": "かどや飯店 蛍池 伊丹"
+  },
+  {
+    "id": "30",
+    "name": "かま栄 新千歳空港店",
+    "airport": "新千歳",
+    "area": "空港ターミナル内",
+    "access": "国内線ターミナル2F（保安検査前）",
+    "genre": "軽食・テイクアウト（揚げかまぼこ）",
+    "specialty": "パンロール・揚げかまぼこ",
+    "crewSummary": [
+      "航空関係者のX投稿で空港のおすすめグルメとして紹介",
+      "保安検査前にあり短時間利用・持ち帰り向き",
+      "行列ができる人気店"
+    ],
+    "hours": "8:00〜20:00",
+    "closedDays": "年中無休",
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": null,
+      "walkable": null,
+      "takeout": true,
+      "cashless": null,
+      "quick": true,
+      "drink": false
+    },
+    "tags": [
+      "quick",
+      "takeout"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-07-10",
+    "addedAt": "2026-07-10",
+    "mapQuery": "かま栄 新千歳空港店 空港ターミナル内 新千歳"
+  },
+  {
+    "id": "31",
+    "name": "ご馳家ぐらっちぇ 本店",
+    "airport": "鳥取",
+    "area": "鳥取駅圏",
+    "access": null,
+    "genre": "海鮮・郷土料理・居酒屋",
+    "specialty": "山陰の旬の海鮮・郷土料理",
+    "crewSummary": [
+      "航空関係者間で受け継がれるおすすめ店リストを通じて紹介された店",
+      "地元の旬の食材を使った料理が評判",
+      "2026年1月に29周年"
+    ],
+    "hours": null,
+    "closedDays": "月曜＋不定休（祝日と重なる場合は変動）",
+    "features": {
+      "breakfast": null,
+      "lateNight": null,
+      "solo": null,
+      "walkable": null,
+      "takeout": null,
+      "cashless": null,
+      "quick": null,
+      "drink": true
+    },
+    "tags": [
+      "drink"
+    ],
+    "statusNote": "営業時間は最新情報をご確認ください",
+    "checkedAt": "2026-07-10",
+    "addedAt": "2026-07-10",
+    "mapQuery": "ご馳家ぐらっちぇ 本店 鳥取駅圏 鳥取"
+  },
+  {
+    "id": "32",
+    "name": "麺処 白樺山荘 新千歳空港店",
+    "airport": "新千歳",
+    "area": "空港ターミナル内",
+    "access": "国内線ターミナル3F（北海道ラーメン道場内）",
+    "genre": "ラーメン",
+    "specialty": "味噌ラーメン",
+    "crewSummary": [
+      "航空関係者推薦の空港内店舗",
+      "濃厚でコク深い味噌スープが好評",
+      "ゆで卵の無料サービスあり"
+    ],
+    "hours": "9:00〜21:00（L.O.20:30）",
+    "closedDays": "年中無休",
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": null,
+      "walkable": null,
+      "takeout": null,
+      "cashless": null,
+      "quick": null,
+      "drink": false
+    },
+    "tags": [],
+    "statusNote": null,
+    "checkedAt": "2026-07-14",
+    "addedAt": "2026-07-14",
+    "mapQuery": "麺処 白樺山荘 新千歳空港店 空港ターミナル内 新千歳"
+  },
+  {
+    "id": "33",
+    "name": "弟子屈ラーメン 新千歳空港店",
+    "airport": "新千歳",
+    "area": "空港ターミナル内",
+    "access": "国内線ターミナル3F（北海道ラーメン道場内）",
+    "genre": "ラーメン",
+    "specialty": "焼豚味噌・魚介しぼり醤油",
+    "crewSummary": [
+      "航空関係者推薦の空港内店舗",
+      "肉味噌を崩して麺と絡める食べ方が好評",
+      "待たずに入れることが多く休憩時間の利用に便利"
+    ],
+    "hours": "9:00〜21:00（L.O.20:30）",
+    "closedDays": "年中無休",
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": null,
+      "walkable": null,
+      "takeout": null,
+      "cashless": null,
+      "quick": true,
+      "drink": false
+    },
+    "tags": [
+      "quick"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-07-14",
+    "addedAt": "2026-07-14",
+    "mapQuery": "弟子屈ラーメン 新千歳空港店 空港ターミナル内 新千歳"
+  },
+  {
+    "id": "34",
+    "name": "函太郎 新千歳空港店",
+    "airport": "新千歳",
+    "area": "空港ターミナル内",
+    "access": "国内線ターミナル3F",
+    "genre": "回転寿司",
+    "specialty": "大ぶりネタの握り・季節限定軍艦",
+    "crewSummary": [
+      "航空関係者推薦の空港内店舗",
+      "ネタが新鮮で大ぶりと好評",
+      "道外では珍しいネタも楽しめる"
+    ],
+    "hours": "11:00〜20:30（L.O.20:00）",
+    "closedDays": "年中無休",
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": null,
+      "walkable": null,
+      "takeout": null,
+      "cashless": null,
+      "quick": null,
+      "drink": false
+    },
+    "tags": [],
+    "statusNote": null,
+    "checkedAt": "2026-07-14",
+    "addedAt": "2026-07-14",
+    "mapQuery": "函太郎 新千歳空港店 空港ターミナル内 新千歳"
+  },
+  {
+    "id": "35",
+    "name": "スープカレーGARAKU 新千歳空港店",
+    "airport": "新千歳",
+    "area": "空港ターミナル内",
+    "access": "国内線ターミナル3F",
+    "genre": "スープカレー",
+    "specialty": "やわらかチキンレッグと野菜",
+    "crewSummary": [
+      "航空関係者推薦の空港内店舗",
+      "和風だしのコクうまスープが好評",
+      "行列ができる人気店"
+    ],
+    "hours": "9:00〜21:00（L.O.20:30）",
+    "closedDays": "年中無休",
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": null,
+      "walkable": null,
+      "takeout": null,
+      "cashless": null,
+      "quick": null,
+      "drink": false
+    },
+    "tags": [],
+    "statusNote": null,
+    "checkedAt": "2026-07-14",
+    "addedAt": "2026-07-14",
+    "mapQuery": "スープカレーGARAKU 新千歳空港店 空港ターミナル内 新千歳"
+  },
+  {
+    "id": "36",
+    "name": "北のおにぎり工房 かな",
+    "airport": "新千歳",
+    "area": "空港ターミナル内",
+    "access": "国内線ターミナル1F（到着ロビー前）",
+    "genre": "軽食・テイクアウト（おにぎり）",
+    "specialty": "北海道米の手握りおにぎり30種以上",
+    "crewSummary": [
+      "航空関係者推薦の空港内店舗",
+      "朝8時から営業で朝食利用に便利",
+      "道産具材のおにぎりが豊富"
+    ],
+    "hours": "8:00〜20:00",
+    "closedDays": "年中無休",
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": null,
+      "walkable": null,
+      "takeout": true,
+      "cashless": null,
+      "quick": null,
+      "drink": false
+    },
+    "tags": [
+      "takeout"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-07-14",
+    "addedAt": "2026-07-14",
+    "mapQuery": "北のおにぎり工房 かな 空港ターミナル内 新千歳"
+  },
+  {
+    "id": "37",
+    "name": "PRONTO 新千歳空港店",
+    "airport": "新千歳",
+    "area": "空港ターミナル内",
+    "access": "国内線ターミナル4F",
+    "genre": "カフェ・バー（利便性枠）",
+    "specialty": "空港店限定ソフトクリーム・カフェ/バー使い",
+    "crewSummary": [
+      "航空関係者推薦の空港内店舗",
+      "空港内では遅い22時まで営業し到着後の食事や一杯に便利",
+      "昼はカフェ、夜はバー営業"
+    ],
+    "hours": "7:30〜22:00（L.O.21:30）",
+    "closedDays": "年中無休",
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": null,
+      "walkable": null,
+      "takeout": null,
+      "cashless": null,
+      "quick": null,
+      "drink": true
+    },
+    "tags": [
+      "drink"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-07-14",
+    "addedAt": "2026-07-14",
+    "mapQuery": "PRONTO 新千歳空港店 空港ターミナル内 新千歳"
   }
 ]
