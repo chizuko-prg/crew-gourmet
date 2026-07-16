@@ -1014,5 +1014,227 @@
     "checkedAt": "2026-07-14",
     "addedAt": "2026-07-14",
     "mapQuery": "PRONTO 新千歳空港店 空港ターミナル内 新千歳"
+  },
+  {
+    "id": "38",
+    "name": "さっぽろジンギスカン 千歳",
+    "airport": "新千歳",
+    "area": "千歳駅圏（東雲町）",
+    "access": "JR千歳 徒歩圏",
+    "genre": "ジンギスカン",
+    "specialty": "ジンギスカン（売切次第閉店）",
+    "crewSummary": [
+      "航空関係者からの直接提供による推薦",
+      "肉がなくなり次第閉店の人気店"
+    ],
+    "hours": "17:00〜売切終了",
+    "closedDays": "不定休",
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": null,
+      "walkable": true,
+      "takeout": null,
+      "cashless": null,
+      "quick": null,
+      "drink": false
+    },
+    "tags": [
+      "walkable"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-07-11",
+    "addedAt": "2026-07-16",
+    "mapQuery": "さっぽろジンギスカン 千歳 千歳駅圏（東雲町） 新千歳"
+  },
+  {
+    "id": "39",
+    "name": "アジフライセンター おむこさん",
+    "airport": "福岡",
+    "area": "博多駅前",
+    "access": "博多駅博多口 徒歩5分（大博多ビル2F）",
+    "genre": "アジフライ定食・居酒屋",
+    "specialty": "アジフライ",
+    "crewSummary": [
+      "航空関係者からの直接提供による推薦",
+      "昼は定食、夜はアジフライ中心の居酒屋",
+      "2026年7月10日に博多駅前へ移転リニューアル"
+    ],
+    "hours": null,
+    "closedDays": null,
+    "features": {
+      "breakfast": false,
+      "lateNight": null,
+      "solo": null,
+      "walkable": null,
+      "takeout": null,
+      "cashless": null,
+      "quick": null,
+      "drink": true
+    },
+    "tags": [
+      "drink"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-07-16",
+    "addedAt": "2026-07-16",
+    "mapQuery": "アジフライセンター おむこさん 博多駅前 福岡"
+  },
+  {
+    "id": "40",
+    "name": "燕郷房（ヤンキョウファン）",
+    "airport": "那覇",
+    "area": "県庁前・旭橋駅圏（泉崎）",
+    "access": "ゆいレール旭橋/県庁前 徒歩5分",
+    "genre": "中華（家常菜）",
+    "specialty": "中華家庭料理",
+    "crewSummary": [
+      "航空関係者からの直接提供による推薦",
+      "ランチ営業・テイクアウトあり"
+    ],
+    "hours": "平日11:30〜14:30/17:30〜23:00、土祝17:00〜23:00、日12:00〜22:00",
+    "closedDays": "火曜",
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": null,
+      "walkable": null,
+      "takeout": true,
+      "cashless": null,
+      "quick": null,
+      "drink": false
+    },
+    "tags": [
+      "takeout"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-07-11",
+    "addedAt": "2026-07-16",
+    "mapQuery": "燕郷房（ヤンキョウファン） 県庁前・旭橋駅圏（泉崎） 那覇"
+  },
+  {
+    "id": "41",
+    "name": "南島酒房 黒うさぎ",
+    "airport": "那覇",
+    "area": "久茂地・県庁前駅圏",
+    "access": "ゆいレール県庁前 徒歩圏",
+    "genre": "沖縄・奄美郷土料理",
+    "specialty": "ゴーヤーチャンプルー・泡盛/黒糖焼酎",
+    "crewSummary": [
+      "航空関係者からの直接提供による推薦",
+      "沖縄と奄美の郷土料理・酒が充実"
+    ],
+    "hours": "17:30〜24:30",
+    "closedDays": "水曜",
+    "features": {
+      "breakfast": false,
+      "lateNight": null,
+      "solo": null,
+      "walkable": null,
+      "takeout": null,
+      "cashless": null,
+      "quick": null,
+      "drink": false
+    },
+    "tags": [],
+    "statusNote": null,
+    "checkedAt": "2026-07-11",
+    "addedAt": "2026-07-16",
+    "mapQuery": "南島酒房 黒うさぎ 久茂地・県庁前駅圏 那覇"
+  },
+  {
+    "id": "42",
+    "name": "タンドリマハル",
+    "airport": "山口宇部",
+    "area": "宇部市（松島町）",
+    "access": null,
+    "genre": "インド料理",
+    "specialty": "カレー・ナン（メニュー100種類超）",
+    "crewSummary": [
+      "航空関係者関連アカウントのX投稿で紹介",
+      "メニュー100種類超のインド料理店"
+    ],
+    "hours": "11:30〜15:00/17:00〜22:00",
+    "closedDays": null,
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": null,
+      "walkable": null,
+      "takeout": null,
+      "cashless": null,
+      "quick": null,
+      "drink": false
+    },
+    "tags": [],
+    "statusNote": null,
+    "checkedAt": "2026-07-11",
+    "addedAt": "2026-07-16",
+    "mapQuery": "タンドリマハル 宇部市（松島町） 山口宇部"
+  },
+  {
+    "id": "43",
+    "name": "まぐろ屋 魚繁伊勢谷",
+    "airport": "秋田",
+    "area": "秋田市民市場内",
+    "access": "秋田駅 徒歩圏（市民市場内）",
+    "genre": "マグロ専門・海鮮丼",
+    "specialty": "まぐろ丼（金・土限定）",
+    "crewSummary": [
+      "航空関係者関連アカウントのX投稿で紹介",
+      "市場内で長年営業のマグロ専門店",
+      "金・土限定のまぐろ丼が名物"
+    ],
+    "hours": "7:00〜15:00（※🍳タグ基準の5時台には非該当）",
+    "closedDays": "日曜",
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": null,
+      "walkable": null,
+      "takeout": true,
+      "cashless": null,
+      "quick": null,
+      "drink": false
+    },
+    "tags": [
+      "takeout"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-07-11",
+    "addedAt": "2026-07-16",
+    "mapQuery": "まぐろ屋 魚繁伊勢谷 秋田市民市場内 秋田"
+  },
+  {
+    "id": "44",
+    "name": "鮨処 北の華",
+    "airport": "新千歳",
+    "area": "千歳駅圏（幸町）",
+    "access": "JR千歳 徒歩圏",
+    "genre": "寿司・海鮮（高価格帯）",
+    "specialty": "本格鮨",
+    "crewSummary": [
+      "航空関係者からの直接提供による推薦",
+      "高価格帯の本格鮨店（日常使いより特別な食事向き）"
+    ],
+    "hours": "17:30〜22:00（L.O.料理21:00）",
+    "closedDays": "日曜（不定休あり）",
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": null,
+      "walkable": true,
+      "takeout": null,
+      "cashless": null,
+      "quick": null,
+      "drink": false
+    },
+    "tags": [
+      "walkable"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-07-11",
+    "addedAt": "2026-07-16",
+    "mapQuery": "鮨処 北の華 千歳駅圏（幸町） 新千歳"
   }
 ]
