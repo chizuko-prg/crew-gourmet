@@ -18,6 +18,7 @@ import "./Restaurants.css";
 const CANONICAL_TAG_KEYS: TagKey[] = [
   "drink",
   "breakfast",
+  "earlyMorning",
   "lateNight",
   "solo",
   "walkable",

@@ -1236,5 +1236,253 @@
     "checkedAt": "2026-07-11",
     "addedAt": "2026-07-16",
     "mapQuery": "鮨処 北の華 千歳駅圏（幸町） 新千歳"
+  },
+  {
+    "id": "45",
+    "name": "博多やりうどん別邸 福岡空港店",
+    "airport": "福岡",
+    "area": "空港ターミナル内",
+    "access": "国内線ターミナル3F（保安検査前）",
+    "genre": "うどん",
+    "specialty": "ごぼう天うどん・あごだしうどん",
+    "crewSummary": [
+      "航空関係者から提供いただいた訪問情報をもとに選定",
+      "昭和42年創業の博多うどん店の空港店",
+      "あごだしベースの香り高いダシとごぼう天が名物",
+      "朝7時半から通し営業で出発前の一人利用に便利"
+    ],
+    "hours": "7:30〜20:45（L.O.）",
+    "closedDays": null,
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": true,
+      "walkable": null,
+      "takeout": null,
+      "cashless": true,
+      "quick": true,
+      "drink": false
+    },
+    "tags": [
+      "solo",
+      "cashless",
+      "quick"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-07-19",
+    "addedAt": "2026-07-19",
+    "mapQuery": "博多やりうどん別邸 福岡空港店 空港ターミナル内 福岡"
+  },
+  {
+    "id": "46",
+    "name": "長浜ナンバーワン 祇園店",
+    "airport": "福岡",
+    "area": "祇園（博多駅圏）",
+    "access": "地下鉄祇園駅 徒歩1分（祇園交差点そば）",
+    "genre": "ラーメン",
+    "specialty": "長浜ラーメン",
+    "crewSummary": [
+      "航空関係者から提供いただいた訪問情報をもとに選定",
+      "昭和46年創業の長浜ラーメン老舗の祇園店",
+      "夜23時まで通し営業で一人の短時間利用に向く",
+      "支払いは現金のみ"
+    ],
+    "hours": "11:30〜23:00（日〜22:00）",
+    "closedDays": "不定休（年末年始休み）",
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": true,
+      "walkable": null,
+      "takeout": null,
+      "cashless": null,
+      "quick": true,
+      "drink": false
+    },
+    "tags": [
+      "solo",
+      "quick"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-07-19",
+    "addedAt": "2026-07-19",
+    "mapQuery": "長浜ナンバーワン 祇園店 祇園（博多駅圏） 福岡"
+  },
+  {
+    "id": "47",
+    "name": "資さんうどん 博多千代店",
+    "airport": "福岡",
+    "area": "千代（博多駅圏）",
+    "access": "地下鉄祇園駅 徒歩5〜6分・JR博多駅 徒歩圏",
+    "genre": "うどん",
+    "specialty": "肉ごぼ天うどん・ぼた餅",
+    "crewSummary": [
+      "航空関係者から提供いただいた訪問情報をもとに選定",
+      "北九州発祥のうどんチェーンの博多駅エリア大型店",
+      "24時間・年中無休で深夜着や早朝ショーアップ前に使える",
+      "タッチパネル注文で一人でも入りやすい"
+    ],
+    "hours": "24時間営業",
+    "closedDays": "年中無休",
+    "features": {
+      "breakfast": false,
+      "lateNight": true,
+      "solo": true,
+      "walkable": null,
+      "takeout": null,
+      "cashless": null,
+      "quick": true,
+      "drink": false
+    },
+    "tags": [
+      "earlyMorning",
+      "lateNight",
+      "solo",
+      "quick"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-07-19",
+    "addedAt": "2026-07-19",
+    "mapQuery": "資さんうどん 博多千代店 千代（博多駅圏） 福岡"
+  },
+  {
+    "id": "48",
+    "name": "食堂 煮魚少年",
+    "airport": "福岡",
+    "area": "住吉（博多駅圏）",
+    "access": "博多駅・祇園駅 徒歩10分／キャナルシティ 徒歩5分",
+    "genre": "煮魚定食・食堂",
+    "specialty": "鯖の煮込み定食",
+    "crewSummary": [
+      "航空関係者から提供いただいた訪問情報をもとに選定",
+      "煮魚専門の定食屋。2日かけて煮込む鯖は骨までホロホロ",
+      "昼夜とも定食で使え一人夕食に向く",
+      "店休日は公式サイトで月ごとに告知"
+    ],
+    "hours": "11:30〜15:30/17:00〜22:00",
+    "closedDays": "不定休（公式サイトで月別告知）",
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": true,
+      "walkable": null,
+      "takeout": null,
+      "cashless": null,
+      "quick": null,
+      "drink": false
+    },
+    "tags": [
+      "solo"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-07-19",
+    "addedAt": "2026-07-19",
+    "mapQuery": "食堂 煮魚少年 住吉（博多駅圏） 福岡"
+  },
+  {
+    "id": "49",
+    "name": "博多もつ鍋 やま中 赤坂店",
+    "airport": "福岡",
+    "area": "赤坂",
+    "access": "地下鉄赤坂駅 徒歩3分",
+    "genre": "もつ鍋",
+    "specialty": "みそもつ鍋（発祥）",
+    "crewSummary": [
+      "航空関係者から提供いただいた訪問情報をもとに選定",
+      "みそもつ鍋発祥の名店。同僚との会食・打ち上げ向き",
+      "鍋は2人前からのため2名以上での利用が前提",
+      "土日はランチ営業あり。ネット予約可で予約推奨"
+    ],
+    "hours": "月〜木16:00〜23:00/金16:00〜23:30/土日12:00〜14:00・16:00〜23:30（日〜23:00）",
+    "closedDays": "年末年始",
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": null,
+      "walkable": null,
+      "takeout": null,
+      "cashless": null,
+      "quick": null,
+      "drink": true
+    },
+    "tags": [
+      "drink"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-07-19",
+    "addedAt": "2026-07-19",
+    "mapQuery": "博多もつ鍋 やま中 赤坂店 赤坂 福岡"
+  },
+  {
+    "id": "50",
+    "name": "たき火炉端 雨やどり",
+    "airport": "新千歳",
+    "area": "千歳駅圏（幸町）",
+    "access": "JR千歳 徒歩10分",
+    "genre": "炉端焼き・居酒屋",
+    "specialty": "囲炉裏の串焼き魚・全国の日本酒ワンカップ",
+    "crewSummary": [
+      "航空関係者から提供いただいた訪問情報をもとに選定",
+      "囲炉裏で焼く旬魚の串焼きが名物の「大人の駄菓子屋」",
+      "カウンターで一人飲みも歓迎",
+      "昼は海鮮丼などのランチ営業あり（20歳未満は入店不可）"
+    ],
+    "hours": "11:00〜14:00/17:00〜22:00",
+    "closedDays": "水曜",
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": true,
+      "walkable": true,
+      "takeout": null,
+      "cashless": true,
+      "quick": null,
+      "drink": true
+    },
+    "tags": [
+      "solo",
+      "walkable",
+      "cashless",
+      "drink"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-07-19",
+    "addedAt": "2026-07-19",
+    "mapQuery": "たき火炉端 雨やどり 千歳駅圏（幸町） 新千歳"
+  },
+  {
+    "id": "51",
+    "name": "ジャッキーステーキハウス",
+    "airport": "那覇",
+    "area": "旭橋駅圏（西）",
+    "access": "ゆいレール旭橋駅 徒歩8分",
+    "genre": "ステーキ",
+    "specialty": "テンダーロインステーキ",
+    "crewSummary": [
+      "航空関係者から提供いただいた訪問情報をもとに選定",
+      "1953年創業の那覇を代表する老舗ステーキハウス",
+      "一人でも入りやすく夜22時半頃まで通し営業",
+      "予約不可のため待ち時間が出ることあり。支払いは現金のみ"
+    ],
+    "hours": "11:00〜22:30頃（入店受付22:00まで）",
+    "closedDays": "水曜・元旦・旧盆",
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": true,
+      "walkable": null,
+      "takeout": true,
+      "cashless": null,
+      "quick": null,
+      "drink": false
+    },
+    "tags": [
+      "solo",
+      "takeout"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-07-19",
+    "addedAt": "2026-07-19",
+    "mapQuery": "ジャッキーステーキハウス 旭橋駅圏（西） 那覇"
   }
 ]

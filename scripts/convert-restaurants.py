@@ -26,8 +26,8 @@ SHEET_NAME = "マスター"
 
 REQUIRED_COLUMNS = ["No", "店名", "空港", "エリア", "ジャンル"]
 
-# 「飲み」は専用列がなく、ジャンルの明示語からの暫定派生値。
-# 将来Excelへ専用列が追加されたら、その列を優先する構造に変更する。
+# 「飲み」はExcelの専用列「飲み」（○/◎→true、×→false）を最優先し、
+# 空欄・要確認の場合のみジャンルの明示語から派生させる（2026-07-19に専用列を新設）。
 DRINK_GENRE_KEYWORDS = ["居酒屋", "バー", "パブ", "酒場", "やきとん", "もつ焼き", "日本酒"]
 
 EMOJI_BREAKFAST = "🍳"
@@ -231,6 +231,7 @@ def convert(path: Path = EXCEL_PATH) -> ConversionReport:
         status_raw = str(row.get("ステータス") or "")
         trust = row.get("信頼度")
 
+        drink_explicit = tri_state(row.get("飲み"))
         features = {
             "breakfast": tri_state(row.get("朝食営業")),
             "lateNight": True if EMOJI_LATE_NIGHT in tag_text else (
@@ -241,7 +242,11 @@ def convert(path: Path = EXCEL_PATH) -> ConversionReport:
             "takeout": tri_state(row.get("テイクアウト")),
             "cashless": True if EMOJI_CASHLESS in tag_text else None,
             "quick": True if EMOJI_QUICK in tag_text else None,
-            "drink": is_drink_spot(str(row.get("ジャンル") or "")),
+            "drink": (
+                drink_explicit
+                if drink_explicit is not None
+                else is_drink_spot(str(row.get("ジャンル") or ""))
+            ),
         }
 
         exclusion_reasons = classify_publish(trust, status_raw)

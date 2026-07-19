@@ -6,12 +6,14 @@ export interface TagDefinition {
 }
 
 /**
- * ホーム・一覧の「目的から探す」に出す候補（指示書7章の初期候補8種）。
- * earlyMorning（🍳・朝5時台の厳格タグ）は該当店舗が出てくるまでここに含めない。
+ * ホーム・一覧の「目的から探す」に出す候補（指示書7章の初期候補8種＋earlyMorning）。
+ * earlyMorning（🍳・朝5時台の厳格タグ）は2026-07-19の初該当店舗（No.47）追加に伴い有効化。
+ * availableHomeTagsが件数0のタグを隠すため、該当店舗が消えれば自動的に非表示へ戻る。
  */
 export const HOME_TAG_DEFINITIONS: TagDefinition[] = [
   { key: "drink", label: "飲み" },
   { key: "breakfast", label: "朝食" },
+  { key: "earlyMorning", label: "朝5時台OK" },
   { key: "lateNight", label: "深夜営業" },
   { key: "solo", label: "一人向き" },
   { key: "walkable", label: "徒歩圏" },
@@ -21,10 +23,7 @@ export const HOME_TAG_DEFINITIONS: TagDefinition[] = [
 ];
 
 /** カード・詳細でタグバッジとして表示する際のラベル定義（全種類）。 */
-export const ALL_TAG_DEFINITIONS: TagDefinition[] = [
-  ...HOME_TAG_DEFINITIONS,
-  { key: "earlyMorning", label: "朝5時台OK" },
-];
+export const ALL_TAG_DEFINITIONS: TagDefinition[] = [...HOME_TAG_DEFINITIONS];
 
 const TAG_LABEL_MAP = new Map(ALL_TAG_DEFINITIONS.map((t) => [t.key, t.label]));
 

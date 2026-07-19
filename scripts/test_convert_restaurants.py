@@ -212,6 +212,25 @@ class SyntheticWorkbookTests(unittest.TestCase):
         with self.assertRaises(convert_restaurants.ConversionError):
             convert_restaurants.convert(path)
 
+    def test_explicit_drink_column_overrides_genre(self) -> None:
+        """「飲み」列の○はジャンル非該当でもdrink付与、×は居酒屋でも不付与、空欄は従来通り。"""
+        header = ["No", "店名", "空港", "エリア", "ジャンル", "信頼度", "ステータス", "飲み"]
+        path = self._make(
+            header,
+            [
+                [1, "もつ鍋店", "福岡", "赤坂", "もつ鍋", "◎", "営業中", "○"],
+                [2, "定食居酒屋", "福岡", "天神", "居酒屋", "◎", "営業中", "×"],
+                [3, "普通の居酒屋", "福岡", "博多", "居酒屋", "◎", "営業中", None],
+            ],
+        )
+        report = convert_restaurants.convert(path)
+        by_id = {r["id"]: r for r in report.published}
+        self.assertTrue(by_id["1"]["features"]["drink"])
+        self.assertIn("drink", by_id["1"]["tags"])
+        self.assertFalse(by_id["2"]["features"]["drink"])
+        self.assertNotIn("drink", by_id["2"]["tags"])
+        self.assertTrue(by_id["3"]["features"]["drink"])
+
     def test_valid_minimal_row_is_published(self) -> None:
         header = ["No", "店名", "空港", "エリア", "ジャンル", "信頼度", "ステータス", "タグ"]
         path = self._make(
@@ -230,17 +249,17 @@ class SyntheticWorkbookTests(unittest.TestCase):
 
 @unittest.skipUnless(REAL_EXCEL_PATH.exists(), "data/crew-gourmet-master.xlsx がローカルにありません")
 class RealMasterExcelTests(unittest.TestCase):
-    """実データ（44行・2026-07-16マスター）に対する結合テスト。"""
+    """実データ（51行・2026-07-19マスター）に対する結合テスト。"""
 
     @classmethod
     def setUpClass(cls) -> None:
         cls.report = convert_restaurants.convert()
 
-    def test_reads_44_rows(self) -> None:
-        self.assertEqual(self.report.total_rows, 44)
+    def test_reads_51_rows(self) -> None:
+        self.assertEqual(self.report.total_rows, 51)
 
     def test_publish_and_exclusion_counts(self) -> None:
-        self.assertEqual(len(self.report.published), 37)
+        self.assertEqual(len(self.report.published), 44)
         self.assertEqual(len(self.report.excluded), 7)
 
     def test_exclusion_reasons_breakdown(self) -> None:
@@ -272,9 +291,10 @@ class RealMasterExcelTests(unittest.TestCase):
                 self.assertIsInstance(item, str)
                 self.assertFalse(item.startswith("・"))
 
-    def test_early_morning_tag_currently_absent(self) -> None:
-        for restaurant in self.report.published:
-            self.assertNotIn("earlyMorning", restaurant["tags"])
+    def test_early_morning_tag_only_on_sukesan(self) -> None:
+        """earlyMorning（🍳）は24時間営業を公式確認したNo.47資さんうどん博多千代店のみ。"""
+        ids = [r["id"] for r in self.report.published if "earlyMorning" in r["tags"]]
+        self.assertEqual(ids, ["47"])
 
 
 if __name__ == "__main__":
