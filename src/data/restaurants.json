@@ -148,7 +148,7 @@
       "2,000円前後で満足できるコスパ",
       "女性の一人客も多く入りやすい"
     ],
-    "hours": "平日16:00〜24:00/土日祝14:00〜23:00",
+    "hours": "平日16:00〜23:45（L.O.22:45）/土日祝14:00〜22:45",
     "closedDays": "年中無休",
     "features": {
       "breakfast": false,
@@ -166,7 +166,7 @@
       "drink"
     ],
     "statusNote": null,
-    "checkedAt": "2026-07-09",
+    "checkedAt": "2026-07-20",
     "addedAt": "2026-07-08",
     "mapQuery": "やきとん 豚番長 蒲田西口店 蒲田 羽田"
   },
@@ -183,11 +183,11 @@
       "店内は英語が主流で海外のような雰囲気",
       "航空グッズ多数、ダーツやビリヤードも"
     ],
-    "hours": null,
+    "hours": "16:00〜翌2:00",
     "closedDays": null,
     "features": {
       "breakfast": false,
-      "lateNight": null,
+      "lateNight": true,
       "solo": true,
       "walkable": true,
       "takeout": false,
@@ -196,12 +196,13 @@
       "drink": true
     },
     "tags": [
+      "lateNight",
       "solo",
       "walkable",
       "drink"
     ],
-    "statusNote": "営業時間は最新情報をご確認ください",
-    "checkedAt": "2026-07-09",
+    "statusNote": "営業時間は変更される場合があります。来店前に最新情報をご確認ください。",
+    "checkedAt": "2026-07-20",
     "addedAt": "2026-07-08",
     "mapQuery": "Jet Lag Club 成田駅圏 成田"
   },
@@ -237,7 +238,7 @@
       "drink"
     ],
     "statusNote": null,
-    "checkedAt": "2026-07-09",
+    "checkedAt": "2026-07-20",
     "addedAt": "2026-07-08",
     "mapQuery": "TANAA'S Barge Inn（旧 The Barge Inn） 成田駅圏 成田"
   },
@@ -272,7 +273,7 @@
       "quick"
     ],
     "statusNote": null,
-    "checkedAt": "2026-07-09",
+    "checkedAt": "2026-07-20",
     "addedAt": "2026-07-08",
     "mapQuery": "ラーメンばやし 成田駅圏 成田"
   },
@@ -322,8 +323,8 @@
       "朝7時半からの営業が便利",
       "英語対応のフレンドリーな接客"
     ],
-    "hours": "7:30〜15:00（日祝〜11:30）",
-    "closedDays": "水・木",
+    "hours": "平日8:00〜15:00/土日祝8:00〜16:00",
+    "closedDays": "水曜",
     "features": {
       "breakfast": false,
       "lateNight": false,
@@ -341,7 +342,7 @@
       "takeout"
     ],
     "statusNote": null,
-    "checkedAt": "2026-07-09",
+    "checkedAt": "2026-07-20",
     "addedAt": "2026-07-08",
     "mapQuery": "ROUTEMAP COFFEE ROASTERS 成田駅圏 成田"
   },

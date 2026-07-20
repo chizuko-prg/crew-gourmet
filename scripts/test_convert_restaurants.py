@@ -270,8 +270,22 @@ class RealMasterExcelTests(unittest.TestCase):
         self.assertEqual(len(low_trust), 1)
         self.assertEqual(len(status_unconfirmed), 6)
 
+    def test_unofficial_hours_note_for_jet_lag_club(self) -> None:
+        """公式未確認の営業時間は内部注記を除去し、公開用の注意文を付ける（2026-07-20）。"""
+        self.assertEqual(self.report.hours_unofficial_ids, ["7"])
+        jet_lag = next(r for r in self.report.published if r["id"] == "7")
+        self.assertEqual(jet_lag["hours"], "16:00〜翌2:00")
+        self.assertNotIn("公式未確認", jet_lag["hours"])
+        self.assertEqual(
+            jet_lag["statusNote"],
+            "営業時間は変更される場合があります。来店前に最新情報をご確認ください。",
+        )
+        self.assertIn("lateNight", jet_lag["tags"])
+
     def test_hours_hidden_for_uncertain_status(self) -> None:
-        self.assertEqual(len(self.report.hours_hidden_ids), 4)
+        # 2026-07-20: No.7 Jet Lag Clubの営業時間が判明したため4→3件
+        # （残りはNo.15バーパドレ・No.24うみの家・No.31ぐらっちぇ）
+        self.assertEqual(len(self.report.hours_hidden_ids), 3)
         for restaurant in self.report.published:
             if restaurant["id"] in self.report.hours_hidden_ids:
                 self.assertIsNone(restaurant["hours"])

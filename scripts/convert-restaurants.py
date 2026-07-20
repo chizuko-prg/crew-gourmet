@@ -12,6 +12,7 @@
 from __future__ import annotations
 
 import json
+import re
 import sys
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -55,6 +56,7 @@ class ConversionReport:
     published: list[dict[str, Any]] = field(default_factory=list)
     excluded: list[ExclusionInfo] = field(default_factory=list)
     hours_hidden_ids: list[str] = field(default_factory=list)
+    hours_unofficial_ids: list[str] = field(default_factory=list)
     warnings: list[str] = field(default_factory=list)
 
 
@@ -263,6 +265,12 @@ def convert(path: Path = EXCEL_PATH) -> ConversionReport:
         else:
             hours = normalize_optional(row.get("営業時間"))
             status_note = None
+            if hours and "公式未確認" in hours:
+                # 内部注記（例:「（グルメサイト情報・公式未確認）」）は公開画面に出さず、
+                # 代わりに公開用の注意文をstatusNoteへ設定する（2026-07-20 管理人指示）。
+                hours = re.sub(r"[（(][^（）()]*公式未確認[^（）()]*[）)]", "", hours).strip() or None
+                status_note = "営業時間は変更される場合があります。来店前に最新情報をご確認ください。"
+                report.hours_unofficial_ids.append(row_id)
 
         area = str(row["エリア"]).strip()
         airport = str(row["空港"]).strip()
@@ -302,6 +310,11 @@ def print_report(report: ConversionReport, *, check_only: bool) -> None:
         lines.append(
             "営業時間を非表示にした店舗（営業時間要確認）: "
             + ", ".join(f"No.{i}" for i in report.hours_hidden_ids)
+        )
+    if report.hours_unofficial_ids:
+        lines.append(
+            "営業時間が公式未確認のため注意文を付けた店舗: "
+            + ", ".join(f"No.{i}" for i in report.hours_unofficial_ids)
         )
     if report.warnings:
         lines.append("警告:")
