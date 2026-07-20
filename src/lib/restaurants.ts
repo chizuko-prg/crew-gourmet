@@ -62,6 +62,78 @@ export interface AirportSummary {
   areas: AreaSummary[];
 }
 
+/**
+ * エリア一覧の空港表示順。
+ * 北海道 → 東北 → 関東 → 中部 → 近畿 → 中国 → 四国 → 九州 → 沖縄
+ * の地理順で、現在登録されている空港だけを並べる。
+ * 未登録の空港は sortByConfiguredNames で末尾へ送られる。
+ */
+const AIRPORT_DISPLAY_ORDER = [
+  // 北海道
+  "新千歳",
+  // 東北
+  "秋田",
+  // 関東
+  "羽田",
+  "成田",
+  // 中部（現在は登録なし）
+  // 近畿
+  "伊丹",
+  // 中国
+  "鳥取",
+  "山口宇部",
+  // 四国（現在は登録なし）
+  // 九州
+  "福岡",
+  // 沖縄
+  "那覇",
+] as const;
+
+/** 各空港内の表示順。未登録のエリアは既知エリアの後ろに追加される。 */
+const AREA_DISPLAY_ORDER_BY_AIRPORT: Readonly<Record<string, readonly string[]>> = {
+  新千歳: [
+    "空港ターミナル内",
+    "千歳駅圏",
+    "千歳駅圏（幸町）",
+    "千歳駅圏（東雲町）",
+  ],
+  秋田: ["秋田市民市場内"],
+  羽田: ["蒲田", "下丸子"],
+  成田: ["成田駅圏"],
+  伊丹: ["蛍池"],
+  鳥取: ["鳥取駅圏"],
+  山口宇部: ["宇部市（松島町）"],
+  福岡: [
+    "空港ターミナル内",
+    "博多駅前",
+    "祇園（博多駅圏）",
+    "千代（博多駅圏）",
+    "住吉（博多駅圏）",
+    "赤坂",
+  ],
+  那覇: [
+    "旭橋駅圏（西）",
+    "県庁前・旭橋駅圏（泉崎）",
+    "久茂地・県庁前駅圏",
+  ],
+};
+
+function sortByConfiguredNames<T>(
+  items: T[],
+  configuredNames: readonly string[],
+  getName: (item: T) => string,
+): T[] {
+  const order = new Map(configuredNames.map((name, index) => [name, index]));
+  return items
+    .map((item, originalIndex) => ({ item, originalIndex }))
+    .sort((a, b) => {
+      const aOrder = order.get(getName(a.item)) ?? Number.MAX_SAFE_INTEGER;
+      const bOrder = order.get(getName(b.item)) ?? Number.MAX_SAFE_INTEGER;
+      return aOrder - bOrder || a.originalIndex - b.originalIndex;
+    })
+    .map(({ item }) => item);
+}
+
 export function getAreaSummaries(list: Restaurant[]): AreaSummary[] {
   const map = new Map<string, AreaSummary>();
   for (const restaurant of list) {
@@ -88,7 +160,15 @@ export function getAirportSummaries(list: Restaurant[]): AirportSummary[] {
       map.set(area.airport, { airport: area.airport, count: area.count, areas: [area] });
     }
   }
-  return Array.from(map.values());
+  const airports = Array.from(map.values()).map((airport) => ({
+    ...airport,
+    areas: sortByConfiguredNames(
+      airport.areas,
+      AREA_DISPLAY_ORDER_BY_AIRPORT[airport.airport] ?? [],
+      (area) => area.area,
+    ),
+  }));
+  return sortByConfiguredNames(airports, AIRPORT_DISPLAY_ORDER, (airport) => airport.airport);
 }
 
 export interface RestaurantFilter {
