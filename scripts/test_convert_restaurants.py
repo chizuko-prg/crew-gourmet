@@ -249,17 +249,17 @@ class SyntheticWorkbookTests(unittest.TestCase):
 
 @unittest.skipUnless(REAL_EXCEL_PATH.exists(), "data/crew-gourmet-master.xlsx がローカルにありません")
 class RealMasterExcelTests(unittest.TestCase):
-    """実データ（51行・2026-07-19マスター）に対する結合テスト。"""
+    """実データ（52行・2026-07-29マスター）に対する結合テスト。"""
 
     @classmethod
     def setUpClass(cls) -> None:
         cls.report = convert_restaurants.convert()
 
-    def test_reads_51_rows(self) -> None:
-        self.assertEqual(self.report.total_rows, 51)
+    def test_reads_52_rows(self) -> None:
+        self.assertEqual(self.report.total_rows, 52)
 
     def test_publish_and_exclusion_counts(self) -> None:
-        self.assertEqual(len(self.report.published), 44)
+        self.assertEqual(len(self.report.published), 45)
         self.assertEqual(len(self.report.excluded), 7)
 
     def test_exclusion_reasons_breakdown(self) -> None:
@@ -272,7 +272,7 @@ class RealMasterExcelTests(unittest.TestCase):
 
     def test_unofficial_hours_note_for_jet_lag_club(self) -> None:
         """公式未確認の営業時間は内部注記を除去し、公開用の注意文を付ける（2026-07-20）。"""
-        self.assertEqual(self.report.hours_unofficial_ids, ["7"])
+        self.assertEqual(self.report.hours_unofficial_ids, ["7", "14", "15"])
         jet_lag = next(r for r in self.report.published if r["id"] == "7")
         self.assertEqual(jet_lag["hours"], "16:00〜翌2:00")
         self.assertNotIn("公式未確認", jet_lag["hours"])
@@ -285,7 +285,7 @@ class RealMasterExcelTests(unittest.TestCase):
     def test_hours_hidden_for_uncertain_status(self) -> None:
         # 2026-07-20: No.7 Jet Lag Clubの営業時間が判明したため4→3件
         # （残りはNo.15バーパドレ・No.24うみの家・No.31ぐらっちぇ）
-        self.assertEqual(len(self.report.hours_hidden_ids), 3)
+        self.assertEqual(len(self.report.hours_hidden_ids), 2)
         for restaurant in self.report.published:
             if restaurant["id"] in self.report.hours_hidden_ids:
                 self.assertIsNone(restaurant["hours"])

@@ -28,7 +28,7 @@ describe("published restaurant data", () => {
     }
   });
 
-  it("uses the current total of 47 published restaurants", () => {
-    expect(restaurants).toHaveLength(47);
+  it("uses the current total of 48 published restaurants", () => {
+    expect(restaurants).toHaveLength(48);
   });
 });

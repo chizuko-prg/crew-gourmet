@@ -288,9 +288,10 @@
     "crewSummary": [
       "海外の航空関係者に人気",
       "本場仕込みのシュラスコが看板",
-      "外国語が飛び交う国際的な雰囲気"
+      "外国語が飛び交う国際的な雰囲気",
+      "国内外の航空関係者の利用が多い"
     ],
-    "hours": "火〜木11:30〜14:30/17:30〜22:30、土日11:30〜22:30",
+    "hours": "火〜日 11:30〜14:30（L.O.13:45）／17:30〜22:00（L.O.21:00）",
     "closedDays": "月曜",
     "features": {
       "breakfast": false,
@@ -306,7 +307,7 @@
       "walkable"
     ],
     "statusNote": null,
-    "checkedAt": "2026-07-10",
+    "checkedAt": "2026-07-27",
     "addedAt": "2026-07-08",
     "mapQuery": "Teco Teco（テコテコ） 成田駅圏 成田"
   },
@@ -374,7 +375,7 @@
       "walkable"
     ],
     "statusNote": null,
-    "checkedAt": "2026-07-09",
+    "checkedAt": "2026-07-27",
     "addedAt": "2026-07-08",
     "mapQuery": "千歳ラム工房 やまじん 総本店 千歳駅圏 新千歳"
   },
@@ -409,7 +410,7 @@
       "takeout"
     ],
     "statusNote": null,
-    "checkedAt": "2026-07-09",
+    "checkedAt": "2026-07-27",
     "addedAt": "2026-07-08",
     "mapQuery": "松尾ジンギスカン 新千歳空港店 空港ターミナル内 新千歳"
   },
@@ -427,8 +428,8 @@
       "十割蕎麦と日本酒をゆっくり楽しめる",
       "一人でも入りやすい"
     ],
-    "hours": "18:00〜23:00",
-    "closedDays": "月曜",
+    "hours": "18:00〜24:00（入店23:00まで）",
+    "closedDays": "月曜（火曜も不定休の情報あり）",
     "features": {
       "breakfast": false,
       "lateNight": false,
@@ -444,8 +445,8 @@
       "walkable",
       "drink"
     ],
-    "statusNote": null,
-    "checkedAt": "2026-07-09",
+    "statusNote": "営業時間は変更される場合があります。来店前に最新情報をご確認ください。",
+    "checkedAt": "2026-07-27",
     "addedAt": "2026-07-09",
     "mapQuery": "酒呑蕎食〆TAGURU（タグル） 蒲田 羽田"
   },
@@ -463,11 +464,11 @@
       "マスターとの会話が楽しめる",
       "一人でも入りやすい"
     ],
-    "hours": null,
-    "closedDays": null,
+    "hours": "19:00〜翌3:00",
+    "closedDays": "日曜・祝日",
     "features": {
       "breakfast": false,
-      "lateNight": null,
+      "lateNight": true,
       "solo": true,
       "walkable": true,
       "takeout": false,
@@ -476,12 +477,13 @@
       "drink": true
     },
     "tags": [
+      "lateNight",
       "solo",
       "walkable",
       "drink"
     ],
-    "statusNote": "営業時間は最新情報をご確認ください",
-    "checkedAt": "2026-07-09",
+    "statusNote": "営業時間は変更される場合があります。来店前に最新情報をご確認ください。",
+    "checkedAt": "2026-07-27",
     "addedAt": "2026-07-09",
     "mapQuery": "バー パドレ（BAR PADRE） 蒲田 羽田"
   },
@@ -1488,6 +1490,42 @@
   },
   {
     "id": "52",
+    "name": "島おでん たから",
+    "airport": "宮古",
+    "area": "宮古島・平良",
+    "access": null,
+    "genre": "沖縄おでん・居酒屋",
+    "specialty": "沖縄おでん",
+    "crewSummary": [
+      "航空関係者関連の情報をもとに候補選定し、店舗へ直接確認して掲載",
+      "宮古島の沖縄おでんの店",
+      "一人でも利用可",
+      "予約は電話受付15〜17時、18:00/18:30枠のみ（DM不可）",
+      "支払いは現金のみ"
+    ],
+    "hours": "18:00〜23:00",
+    "closedDays": "日曜・月曜",
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": true,
+      "walkable": null,
+      "takeout": null,
+      "cashless": null,
+      "quick": null,
+      "drink": true
+    },
+    "tags": [
+      "solo",
+      "drink"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-07-29",
+    "addedAt": "2026-07-29",
+    "mapQuery": "島おでん たから 宮古島・平良 宮古"
+  },
+  {
+    "id": "53",
     "name": "カフェ カンナ",
     "airport": "宮崎",
     "area": "空港ターミナル内",
@@ -1524,7 +1562,7 @@
     "mapQuery": "カフェ カンナ 空港ターミナル内 宮崎"
   },
   {
-    "id": "53",
+    "id": "54",
     "name": "味の正福",
     "airport": "福岡",
     "area": "天神",
@@ -1559,7 +1597,7 @@
     "mapQuery": "味の正福 天神 福岡"
   },
   {
-    "id": "54",
+    "id": "55",
     "name": "博多蒸氣屋 中洲店",
     "airport": "福岡",
     "area": "中洲川端",

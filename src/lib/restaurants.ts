@@ -88,6 +88,7 @@ const AIRPORT_DISPLAY_ORDER = [
   "宮崎",
   // 沖縄
   "那覇",
+  "宮古",
 ] as const;
 
 /** 各空港内の表示順。未登録のエリアは既知エリアの後ろに追加される。 */
@@ -118,6 +119,7 @@ const AREA_DISPLAY_ORDER_BY_AIRPORT: Readonly<Record<string, readonly string[]>>
     "県庁前・旭橋駅圏（泉崎）",
     "久茂地・県庁前駅圏",
   ],
+  宮古: ["宮古島・平良"],
 };
 
 function sortByConfiguredNames<T>(
