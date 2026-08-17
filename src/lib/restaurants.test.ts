@@ -128,6 +128,7 @@ describe("area/airport summaries", () => {
       makeRestaurant({ id: "9", airport: "鳥取", area: "鳥取駅圏" }),
       makeRestaurant({ id: "10", airport: "伊丹", area: "蛍池" }),
       makeRestaurant({ id: "11", airport: "将来空港B", area: "将来エリアB" }),
+      makeRestaurant({ id: "12", airport: "宮崎", area: "空港ターミナル内" }),
     ];
 
     expect(getAirportSummaries(mixed).map((summary) => summary.airport)).toEqual([
@@ -139,6 +140,7 @@ describe("area/airport summaries", () => {
       "鳥取",
       "山口宇部",
       "福岡",
+      "宮崎",
       "那覇",
       "将来空港A",
       "将来空港B",

@@ -1485,5 +1485,112 @@
     "checkedAt": "2026-07-19",
     "addedAt": "2026-07-19",
     "mapQuery": "ジャッキーステーキハウス 旭橋駅圏（西） 那覇"
+  },
+  {
+    "id": "52",
+    "name": "カフェ カンナ",
+    "airport": "宮崎",
+    "area": "空港ターミナル内",
+    "access": "宮崎空港 国内線ターミナル2F（保安検査前）",
+    "genre": "カレー・軽食・カフェ",
+    "specialty": "ガンジスカレー",
+    "crewSummary": [
+      "航空会社公式SNSでクルーがおすすめするガンジスカレーの提供店として選定",
+      "短時間でも食べやすい定番の空港メシ",
+      "朝7時から営業し、出発前に使いやすい",
+      "カウンター席・コンセント席・コード決済あり"
+    ],
+    "hours": "7:00〜18:00（L.O.17:45）",
+    "closedDays": null,
+    "features": {
+      "breakfast": true,
+      "lateNight": false,
+      "solo": true,
+      "walkable": null,
+      "takeout": null,
+      "cashless": true,
+      "quick": true,
+      "drink": false
+    },
+    "tags": [
+      "breakfast",
+      "solo",
+      "cashless",
+      "quick"
+    ],
+    "statusNote": "航空関係者の推薦はガンジスカレーに対するものです。カフェ カンナは現在の提供店として掲載しています。",
+    "checkedAt": "2026-08-17",
+    "addedAt": "2026-08-17",
+    "mapQuery": "カフェ カンナ 空港ターミナル内 宮崎"
+  },
+  {
+    "id": "53",
+    "name": "味の正福",
+    "airport": "福岡",
+    "area": "天神",
+    "access": "アクロス福岡B2F",
+    "genre": "魚料理・定食",
+    "specialty": "銀だらみりん・なすみそ",
+    "crewSummary": [
+      "福岡ステイを重ねた現役CAがおすすめする定食店",
+      "魚料理と野菜を一緒に取れ、栄養バランスを整えやすい",
+      "一人でも入りやすく、乗務後の食事に向く",
+      "テイクアウトにも対応"
+    ],
+    "hours": "11:00〜21:00（O.S.20:00）",
+    "closedDays": "木曜",
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": true,
+      "walkable": null,
+      "takeout": true,
+      "cashless": null,
+      "quick": null,
+      "drink": false
+    },
+    "tags": [
+      "solo",
+      "takeout"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-08-17",
+    "addedAt": "2026-08-17",
+    "mapQuery": "味の正福 天神 福岡"
+  },
+  {
+    "id": "54",
+    "name": "博多蒸氣屋 中洲店",
+    "airport": "福岡",
+    "area": "中洲川端",
+    "access": "地下鉄中洲川端駅 1番出口前",
+    "genre": "和菓子・焼きドーナツ",
+    "specialty": "博多焼どうなつ・かすたどん",
+    "crewSummary": [
+      "福岡ステイを重ねた現役CAがおすすめするテイクアウト店",
+      "焼どうなつは油で揚げず、ふわっとした食感",
+      "店内実演で焼きたてを購入できる",
+      "中洲川端駅の出口前で立ち寄りやすい"
+    ],
+    "hours": "11:00〜19:30",
+    "closedDays": null,
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": null,
+      "walkable": true,
+      "takeout": true,
+      "cashless": null,
+      "quick": null,
+      "drink": false
+    },
+    "tags": [
+      "walkable",
+      "takeout"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-08-17",
+    "addedAt": "2026-08-17",
+    "mapQuery": "博多蒸氣屋 中洲店 中洲川端 福岡"
   }
 ]

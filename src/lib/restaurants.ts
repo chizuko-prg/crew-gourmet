@@ -85,6 +85,7 @@ const AIRPORT_DISPLAY_ORDER = [
   // 四国（現在は登録なし）
   // 九州
   "福岡",
+  "宮崎",
   // 沖縄
   "那覇",
 ] as const;
@@ -111,6 +112,7 @@ const AREA_DISPLAY_ORDER_BY_AIRPORT: Readonly<Record<string, readonly string[]>>
     "住吉（博多駅圏）",
     "赤坂",
   ],
+  宮崎: ["空港ターミナル内"],
   那覇: [
     "旭橋駅圏（西）",
     "県庁前・旭橋駅圏（泉崎）",
