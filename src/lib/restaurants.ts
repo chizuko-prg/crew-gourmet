@@ -101,7 +101,7 @@ const AREA_DISPLAY_ORDER_BY_AIRPORT: Readonly<Record<string, readonly string[]>>
   ],
   秋田: ["秋田市民市場内"],
   羽田: ["蒲田", "下丸子"],
-  成田: ["成田駅圏"],
+  成田: ["空港ターミナル内", "成田駅圏"],
   伊丹: ["蛍池"],
   鳥取: ["鳥取駅圏"],
   山口宇部: ["宇部市（松島町）"],

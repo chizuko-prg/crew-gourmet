@@ -21,6 +21,9 @@ describe("published restaurant data", () => {
       "味の正福",
       "博多蒸氣屋 中洲店",
       "博多もつ鍋 やま中 赤坂店",
+      "謝朋殿 成田空港第2ターミナル店",
+      "博多 一天門 成田空港第3ターミナル店",
+      "リンガーハット 成田空港第3ターミナル店",
     ];
 
     for (const name of expectedNames) {
@@ -28,7 +31,7 @@ describe("published restaurant data", () => {
     }
   });
 
-  it("uses the current total of 48 published restaurants", () => {
-    expect(restaurants).toHaveLength(48);
+  it("uses the current total of 51 published restaurants", () => {
+    expect(restaurants).toHaveLength(51);
   });
 });

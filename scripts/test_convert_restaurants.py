@@ -249,17 +249,17 @@ class SyntheticWorkbookTests(unittest.TestCase):
 
 @unittest.skipUnless(REAL_EXCEL_PATH.exists(), "data/crew-gourmet-master.xlsx がローカルにありません")
 class RealMasterExcelTests(unittest.TestCase):
-    """実データ（52行・2026-07-29マスター）に対する結合テスト。"""
+    """実データ（55行・2026-08-18マスター）に対する結合テスト。"""
 
     @classmethod
     def setUpClass(cls) -> None:
         cls.report = convert_restaurants.convert()
 
-    def test_reads_52_rows(self) -> None:
-        self.assertEqual(self.report.total_rows, 52)
+    def test_reads_55_rows(self) -> None:
+        self.assertEqual(self.report.total_rows, 55)
 
     def test_publish_and_exclusion_counts(self) -> None:
-        self.assertEqual(len(self.report.published), 45)
+        self.assertEqual(len(self.report.published), 48)
         self.assertEqual(len(self.report.excluded), 7)
 
     def test_exclusion_reasons_breakdown(self) -> None:
@@ -267,8 +267,11 @@ class RealMasterExcelTests(unittest.TestCase):
         status_unconfirmed = [
             e for e in self.report.excluded if any("営業状況要確認" in r for r in e.reasons)
         ]
+        closed = [e for e in self.report.excluded if any("閉店" in r for r in e.reasons)]
         self.assertEqual(len(low_trust), 1)
-        self.assertEqual(len(status_unconfirmed), 6)
+        # No.16リボリータは閉店・移転へ修正したため営業状況要確認は6→5、閉店1
+        self.assertEqual(len(status_unconfirmed), 5)
+        self.assertEqual(len(closed), 1)
 
     def test_unofficial_hours_note_for_jet_lag_club(self) -> None:
         """公式未確認の営業時間は内部注記を除去し、公開用の注意文を付ける（2026-07-20）。"""
@@ -305,10 +308,10 @@ class RealMasterExcelTests(unittest.TestCase):
                 self.assertIsInstance(item, str)
                 self.assertFalse(item.startswith("・"))
 
-    def test_early_morning_tag_only_on_sukesan(self) -> None:
-        """earlyMorning（🍳）は24時間営業を公式確認したNo.47資さんうどん博多千代店のみ。"""
+    def test_early_morning_tags(self) -> None:
+        """earlyMorning（🍳）はNo.47資さんうどん（24時間）と、朝5時営業の成田空港内No.57博多一天門・No.58リンガーハット（rebaseでNo.54/55→57/58へ採番変更）。"""
         ids = [r["id"] for r in self.report.published if "earlyMorning" in r["tags"]]
-        self.assertEqual(ids, ["47"])
+        self.assertEqual(ids, ["47", "57", "58"])
 
 
 if __name__ == "__main__":

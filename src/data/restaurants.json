@@ -1630,5 +1630,104 @@
     "checkedAt": "2026-08-17",
     "addedAt": "2026-08-17",
     "mapQuery": "博多蒸氣屋 中洲店 中洲川端 福岡"
+  },
+  {
+    "id": "56",
+    "name": "謝朋殿 成田空港第2ターミナル店",
+    "airport": "成田",
+    "area": "空港ターミナル内",
+    "access": "第2ターミナル本館4F（保安検査前）",
+    "genre": "中華",
+    "specialty": "五目やきそば・担々麺",
+    "crewSummary": [
+      "航空関係者に人気の空港内の定番中華として紹介",
+      "保安検査前エリアで搭乗前後や勤務の合間に立ち寄りやすい",
+      "広い店内で比較的スムーズに入店できる"
+    ],
+    "hours": "8:30〜21:00（L.O.20:30）",
+    "closedDays": "無休",
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": null,
+      "walkable": null,
+      "takeout": null,
+      "cashless": null,
+      "quick": null,
+      "drink": false
+    },
+    "tags": [],
+    "statusNote": null,
+    "checkedAt": "2026-08-18",
+    "addedAt": "2026-08-18",
+    "mapQuery": "謝朋殿 成田空港第2ターミナル店 空港ターミナル内 成田"
+  },
+  {
+    "id": "57",
+    "name": "博多 一天門 成田空港第3ターミナル店",
+    "airport": "成田",
+    "area": "空港ターミナル内",
+    "access": "第3ターミナル2F（保安検査前）",
+    "genre": "ラーメン（とんこつ）",
+    "specialty": "和風とんこつラーメン",
+    "crewSummary": [
+      "航空関係者のおすすめとして早朝便前の一杯に紹介",
+      "朝5時開店で早朝の出発前・ショーアップ前に使える",
+      "カウンター中心で提供が早く短時間でも入りやすい"
+    ],
+    "hours": "5:00〜21:00",
+    "closedDays": "無休",
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": true,
+      "walkable": null,
+      "takeout": null,
+      "cashless": null,
+      "quick": true,
+      "drink": false
+    },
+    "tags": [
+      "earlyMorning",
+      "solo",
+      "quick"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-08-18",
+    "addedAt": "2026-08-18",
+    "mapQuery": "博多 一天門 成田空港第3ターミナル店 空港ターミナル内 成田"
+  },
+  {
+    "id": "58",
+    "name": "リンガーハット 成田空港第3ターミナル店",
+    "airport": "成田",
+    "area": "空港ターミナル内",
+    "access": "第3ターミナル2F（保安検査前）",
+    "genre": "ちゃんぽん",
+    "specialty": "長崎ちゃんぽん",
+    "crewSummary": [
+      "航空関係者のおすすめとして早朝便前の食事に紹介",
+      "朝5時開店で早朝の出発前に使える",
+      "野菜が多く出発前・帰国前の栄養補給向き"
+    ],
+    "hours": "5:00〜21:00（金・土は〜21:30）",
+    "closedDays": "無休",
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": null,
+      "walkable": null,
+      "takeout": null,
+      "cashless": null,
+      "quick": null,
+      "drink": false
+    },
+    "tags": [
+      "earlyMorning"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-08-18",
+    "addedAt": "2026-08-18",
+    "mapQuery": "リンガーハット 成田空港第3ターミナル店 空港ターミナル内 成田"
   }
 ]
