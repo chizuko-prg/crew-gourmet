@@ -249,17 +249,17 @@ class SyntheticWorkbookTests(unittest.TestCase):
 
 @unittest.skipUnless(REAL_EXCEL_PATH.exists(), "data/crew-gourmet-master.xlsx がローカルにありません")
 class RealMasterExcelTests(unittest.TestCase):
-    """実データ（55行・2026-08-18マスター）に対する結合テスト。"""
+    """実データ（61行・2026-08-18マスター）に対する結合テスト。"""
 
     @classmethod
     def setUpClass(cls) -> None:
         cls.report = convert_restaurants.convert()
 
-    def test_reads_55_rows(self) -> None:
-        self.assertEqual(self.report.total_rows, 55)
+    def test_reads_61_rows(self) -> None:
+        self.assertEqual(self.report.total_rows, 61)
 
     def test_publish_and_exclusion_counts(self) -> None:
-        self.assertEqual(len(self.report.published), 48)
+        self.assertEqual(len(self.report.published), 54)
         self.assertEqual(len(self.report.excluded), 7)
 
     def test_exclusion_reasons_breakdown(self) -> None:
@@ -312,6 +312,13 @@ class RealMasterExcelTests(unittest.TestCase):
         """earlyMorning（🍳）はNo.47資さんうどん（24時間）と、朝5時営業の成田空港内No.57博多一天門・No.58リンガーハット（rebaseでNo.54/55→57/58へ採番変更）。"""
         ids = [r["id"] for r in self.report.published if "earlyMorning" in r["tags"]]
         self.assertEqual(ids, ["47", "57", "58"])
+
+    def test_manual_status_note_column(self) -> None:
+        """「公開ステータス注記」列の手書き注記が公開JSONへ反映される（No.53カフェカンナ・No.60カウベル）。"""
+        by_id = {r["id"]: r for r in self.report.published}
+        self.assertIn("ガンジスカレー", by_id["53"]["statusNote"])
+        self.assertIn("予約制", by_id["60"]["statusNote"])
+        self.assertIsNone(by_id["59"]["statusNote"])
 
 
 if __name__ == "__main__":

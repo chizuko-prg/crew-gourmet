@@ -1729,5 +1729,98 @@
     "checkedAt": "2026-08-18",
     "addedAt": "2026-08-18",
     "mapQuery": "リンガーハット 成田空港第3ターミナル店 空港ターミナル内 成田"
+  },
+  {
+    "id": "59",
+    "name": "五島手延うどん おっどん亭",
+    "airport": "五島福江",
+    "area": "福江島（福江港周辺）",
+    "access": "福江港から車で約10分",
+    "genre": "うどん（五島手延うどん）",
+    "specialty": "地獄炊きうどん・五島うどん",
+    "crewSummary": [
+      "航空関係者による紹介で取り上げられた五島うどんの専門店",
+      "製麺所直営で名物は地獄炊き",
+      "福江港から車で約10分"
+    ],
+    "hours": "11:00〜14:30（食堂／売店9:00〜17:00）",
+    "closedDays": "火曜（食堂）※売店は年中無休",
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": null,
+      "walkable": null,
+      "takeout": null,
+      "cashless": null,
+      "quick": null,
+      "drink": false
+    },
+    "tags": [],
+    "statusNote": null,
+    "checkedAt": "2026-08-18",
+    "addedAt": "2026-08-18",
+    "mapQuery": "五島手延うどん おっどん亭 福江島（福江港周辺） 五島福江"
+  },
+  {
+    "id": "60",
+    "name": "レストラン カウベル",
+    "airport": "五島福江",
+    "area": "福江島（五島コンカナ王国）",
+    "access": "五島コンカナ王国内（福江港・福江空港から車圏）",
+    "genre": "ステーキ・鉄板焼き（五島牛）",
+    "specialty": "五島牛の鉄板焼き・ハンバーグ",
+    "crewSummary": [
+      "航空関係者による紹介で取り上げられた五島牛のステーキ店",
+      "リゾート施設内で五島牛の鉄板焼きが味わえる",
+      "自家農園の野菜や五島産スパークリングワインも"
+    ],
+    "hours": "18:00〜21:00（ディナー・L.O.20:30）",
+    "closedDays": "木曜",
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": null,
+      "walkable": null,
+      "takeout": null,
+      "cashless": null,
+      "quick": null,
+      "drink": false
+    },
+    "tags": [],
+    "statusNote": "ディナーは予約制の場合があります。ご予約・最新情報をご確認ください。",
+    "checkedAt": "2026-08-18",
+    "addedAt": "2026-08-18",
+    "mapQuery": "レストラン カウベル 福江島（五島コンカナ王国） 五島福江"
+  },
+  {
+    "id": "61",
+    "name": "喫茶ケルン",
+    "airport": "長崎",
+    "area": "島原市（島原）",
+    "access": "島原駅周辺（島原市高島）",
+    "genre": "喫茶・甘味（かんざらし）",
+    "specialty": "かんざらし・コーヒー",
+    "crewSummary": [
+      "航空関係者おすすめとして紹介された島原の老舗喫茶",
+      "島原名物かんざらしが看板メニュー",
+      "築100年以上の古民家を改装した趣ある店内"
+    ],
+    "hours": "10:00〜22:30（日曜11:00〜17:30）",
+    "closedDays": "不定休",
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": null,
+      "walkable": null,
+      "takeout": null,
+      "cashless": null,
+      "quick": null,
+      "drink": false
+    },
+    "tags": [],
+    "statusNote": null,
+    "checkedAt": "2026-08-18",
+    "addedAt": "2026-08-18",
+    "mapQuery": "喫茶ケルン 島原市（島原） 長崎"
   }
 ]

@@ -24,6 +24,9 @@ describe("published restaurant data", () => {
       "謝朋殿 成田空港第2ターミナル店",
       "博多 一天門 成田空港第3ターミナル店",
       "リンガーハット 成田空港第3ターミナル店",
+      "五島手延うどん おっどん亭",
+      "レストラン カウベル",
+      "喫茶ケルン",
     ];
 
     for (const name of expectedNames) {
@@ -31,7 +34,7 @@ describe("published restaurant data", () => {
     }
   });
 
-  it("uses the current total of 51 published restaurants", () => {
-    expect(restaurants).toHaveLength(51);
+  it("uses the current total of 54 published restaurants", () => {
+    expect(restaurants).toHaveLength(54);
   });
 });

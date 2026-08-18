@@ -272,6 +272,13 @@ def convert(path: Path = EXCEL_PATH) -> ConversionReport:
                 status_note = "営業時間は変更される場合があります。来店前に最新情報をご確認ください。"
                 report.hours_unofficial_ids.append(row_id)
 
+        # 店舗個別の公開ステータス注記（Excel「公開ステータス注記」列）。
+        # 営業時間関連の自動注記が無い場合のみ適用し、既存の自動挙動は変更しない。
+        if status_note is None:
+            manual_note = str(row.get("公開ステータス注記") or "").strip()
+            if manual_note:
+                status_note = manual_note
+
         area = str(row["エリア"]).strip()
         airport = str(row["空港"]).strip()
 

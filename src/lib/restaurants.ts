@@ -85,6 +85,8 @@ const AIRPORT_DISPLAY_ORDER = [
   // 四国（現在は登録なし）
   // 九州
   "福岡",
+  "長崎",
+  "五島福江",
   "宮崎",
   // 沖縄
   "那覇",
@@ -113,6 +115,8 @@ const AREA_DISPLAY_ORDER_BY_AIRPORT: Readonly<Record<string, readonly string[]>>
     "住吉（博多駅圏）",
     "赤坂",
   ],
+  長崎: ["島原市（島原）"],
+  五島福江: ["福江島（福江港周辺）", "福江島（五島コンカナ王国）"],
   宮崎: ["空港ターミナル内"],
   那覇: [
     "旭橋駅圏（西）",
