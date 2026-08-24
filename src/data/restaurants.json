@@ -1822,5 +1822,72 @@
     "checkedAt": "2026-08-18",
     "addedAt": "2026-08-18",
     "mapQuery": "喫茶ケルン 島原市（島原） 長崎"
+  },
+  {
+    "id": "62",
+    "name": "エアポートグリル＆バール",
+    "airport": "羽田",
+    "area": "空港ターミナル内",
+    "access": "第2ターミナル4F マーケットプレイス（保安検査前）",
+    "genre": "洋食（ハンバーグ）",
+    "specialty": "本格ハンバーグ・空港限定クラフトビール",
+    "crewSummary": [
+      "航空会社公式メディアで航空関係者に人気のレストランとして紹介",
+      "滑走路を望む席で本格ハンバーグを味わえる",
+      "保安検査前エリアで搭乗前後や勤務の合間に立ち寄りやすい",
+      "空港限定のクラフトビールが飲める"
+    ],
+    "hours": "平日11:00〜20:30（L.O.19:30）／土日祝10:30〜21:00（L.O.20:00）",
+    "closedDays": null,
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": null,
+      "walkable": null,
+      "takeout": null,
+      "cashless": null,
+      "quick": null,
+      "drink": false
+    },
+    "tags": [],
+    "statusNote": null,
+    "checkedAt": "2026-08-24",
+    "addedAt": "2026-08-24",
+    "mapQuery": "エアポートグリル＆バール 空港ターミナル内 羽田"
+  },
+  {
+    "id": "63",
+    "name": "唐朝刀削麺 成田空港店",
+    "airport": "成田",
+    "area": "空港ターミナル内",
+    "access": "第1ターミナル中央ビル4F（保安検査前）",
+    "genre": "中華（西安料理・刀削麺）",
+    "specialty": "刀削麺",
+    "crewSummary": [
+      "航空関係者のおすすめとして空港内のランチに紹介",
+      "手打ちの刀削麺が名物の西安料理店",
+      "保安検査前エリアで搭乗前や到着後に立ち寄りやすい",
+      "朝はモーニングメニューがあり早い時間から利用できる"
+    ],
+    "hours": "8:30〜21:00（L.O.20:30／モーニング8:30〜10:30）",
+    "closedDays": "年中無休",
+    "features": {
+      "breakfast": true,
+      "lateNight": false,
+      "solo": null,
+      "walkable": null,
+      "takeout": null,
+      "cashless": null,
+      "quick": true,
+      "drink": false
+    },
+    "tags": [
+      "breakfast",
+      "quick"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-08-24",
+    "addedAt": "2026-08-24",
+    "mapQuery": "唐朝刀削麺 成田空港店 空港ターミナル内 成田"
   }
 ]

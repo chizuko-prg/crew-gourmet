@@ -102,7 +102,7 @@ const AREA_DISPLAY_ORDER_BY_AIRPORT: Readonly<Record<string, readonly string[]>>
     "千歳駅圏（東雲町）",
   ],
   秋田: ["秋田市民市場内"],
-  羽田: ["蒲田", "下丸子"],
+  羽田: ["空港ターミナル内", "蒲田", "下丸子"],
   成田: ["空港ターミナル内", "成田駅圏"],
   伊丹: ["蛍池"],
   鳥取: ["鳥取駅圏"],

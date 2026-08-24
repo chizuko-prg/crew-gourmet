@@ -27,6 +27,8 @@ describe("published restaurant data", () => {
       "五島手延うどん おっどん亭",
       "レストラン カウベル",
       "喫茶ケルン",
+      "エアポートグリル＆バール",
+      "唐朝刀削麺 成田空港店",
     ];
 
     for (const name of expectedNames) {
@@ -34,7 +36,7 @@ describe("published restaurant data", () => {
     }
   });
 
-  it("uses the current total of 54 published restaurants", () => {
-    expect(restaurants).toHaveLength(54);
+  it("uses the current total of 56 published restaurants", () => {
+    expect(restaurants).toHaveLength(56);
   });
 });
