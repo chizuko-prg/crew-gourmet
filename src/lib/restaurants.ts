@@ -91,6 +91,8 @@ const AIRPORT_DISPLAY_ORDER = [
   // 沖縄
   "那覇",
   "宮古",
+  // 海外（ステイ先の都市単位。空港数には含めない）
+  "パリ",
 ] as const;
 
 /** 各空港内の表示順。未登録のエリアは既知エリアの後ろに追加される。 */
@@ -100,6 +102,7 @@ const AREA_DISPLAY_ORDER_BY_AIRPORT: Readonly<Record<string, readonly string[]>>
     "千歳駅圏",
     "千歳駅圏（幸町）",
     "千歳駅圏（東雲町）",
+    "札幌・狸小路",
   ],
   秋田: ["秋田市民市場内"],
   羽田: ["空港ターミナル内", "蒲田", "下丸子"],
@@ -122,8 +125,10 @@ const AREA_DISPLAY_ORDER_BY_AIRPORT: Readonly<Record<string, readonly string[]>>
     "旭橋駅圏（西）",
     "県庁前・旭橋駅圏（泉崎）",
     "久茂地・県庁前駅圏",
+    "豊見城",
   ],
   宮古: ["宮古島・平良"],
+  パリ: ["3区（Arts et Métiers）"],
 };
 
 function sortByConfiguredNames<T>(
@@ -220,6 +225,18 @@ export function formatCheckedAt(value: string | null): string | null {
   if (!match) return value;
   const [, year, month, day] = match;
   return `${year}年${Number(month)}月${Number(day)}日`;
+}
+
+/**
+ * 所在国コード（ISO 3166-1 alpha-2）を国旗絵文字へ変換する。
+ * 国内店舗はcountryCodeを持たないためnullを返し、国旗は表示されない。
+ * 将来の国別表示・フィルターも、この国コードを起点に拡張できる。
+ */
+export function countryFlag(code: string | null | undefined): string | null {
+  if (!code || !/^[A-Za-z]{2}$/.test(code)) return null;
+  return code
+    .toUpperCase()
+    .replace(/./g, (char) => String.fromCodePoint(127397 + char.charCodeAt(0)));
 }
 
 export function buildGoogleMapsUrl(mapQuery: string): string {

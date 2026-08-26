@@ -300,6 +300,14 @@ def convert(path: Path = EXCEL_PATH) -> ConversionReport:
             "addedAt": format_date(row.get("追加日")),
             "mapQuery": f"{name} {area} {airport}",
         }
+
+        # 海外店舗のみ国コード（ISO 3166-1 alpha-2）を保持する。
+        # 国内店舗はExcelの「国コード」列が空欄のためキー自体を出力せず、
+        # 既存の公開JSONを変化させない（2026-08-26 国旗表示対応）。
+        country_code = normalize_optional(row.get("国コード"))
+        if country_code:
+            restaurant["countryCode"] = country_code.upper()
+
         report.published.append(restaurant)
 
     return report

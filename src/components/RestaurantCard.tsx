@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import type { Restaurant } from "../types/restaurant";
-import { tagLabel } from "../lib/restaurants";
+import { countryFlag, tagLabel } from "../lib/restaurants";
 import { FeatureTag } from "./FeatureTag";
 import { FavoriteButton } from "./FavoriteButton";
 import { PrimaryButton } from "./PrimaryButton";
@@ -18,6 +18,7 @@ export function RestaurantCard({
   onToggleFavorite,
 }: RestaurantCardProps) {
   const locationLine = restaurant.access ?? restaurant.area;
+  const flag = countryFlag(restaurant.countryCode);
   const topSummary = restaurant.crewSummary[0];
 
   return (
@@ -36,6 +37,11 @@ export function RestaurantCard({
       <p className="restaurant-card__meta">
         {restaurant.genre}
         {locationLine ? ` ・ ${locationLine}` : ""}
+        {flag ? (
+          <span className="restaurant-card__flag" role="img" aria-label={`所在国 ${restaurant.countryCode}`}>
+            {` ${flag}`}
+          </span>
+        ) : null}
       </p>
 
       {topSummary ? (

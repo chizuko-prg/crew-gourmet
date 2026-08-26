@@ -6,6 +6,7 @@ import {
   tagLabel,
   formatCheckedAt,
   buildGoogleMapsUrl,
+  countryFlag,
   getRestaurantById,
 } from "../lib/restaurants";
 import { AppHeader } from "../components/AppHeader";
@@ -35,6 +36,7 @@ export function RestaurantDetail() {
   }
 
   const checkedAtText = formatCheckedAt(restaurant.checkedAt);
+  const flag = countryFlag(restaurant.countryCode);
 
   return (
     <div>
@@ -73,7 +75,14 @@ export function RestaurantDetail() {
           {restaurant.access ? (
             <div className="detail-facts__row">
               <dt>アクセス</dt>
-              <dd>{restaurant.access}</dd>
+              <dd>
+                {restaurant.access}
+                {flag ? (
+                  <span className="detail-facts__flag" role="img" aria-label={`所在国 ${restaurant.countryCode}`}>
+                    {` ${flag}`}
+                  </span>
+                ) : null}
+              </dd>
             </div>
           ) : null}
           {restaurant.specialty ? (

@@ -29,6 +29,11 @@ describe("published restaurant data", () => {
       "喫茶ケルン",
       "エアポートグリル＆バール",
       "唐朝刀削麺 成田空港店",
+      "串かつ 千里",
+      "SOUL STORE",
+      "ブーランジュリー フール",
+      "食酒房 助",
+      "Song Heng",
     ];
 
     for (const name of expectedNames) {
@@ -36,7 +41,14 @@ describe("published restaurant data", () => {
     }
   });
 
-  it("uses the current total of 56 published restaurants", () => {
-    expect(restaurants).toHaveLength(56);
+  it("uses the current total of 61 published restaurants", () => {
+    expect(restaurants).toHaveLength(61);
+  });
+
+  it("keeps countryCode for overseas restaurants only", () => {
+    const withCountry = restaurants.filter((restaurant) => restaurant.countryCode);
+    expect(withCountry.map((restaurant) => [restaurant.name, restaurant.countryCode])).toEqual([
+      ["Song Heng", "FR"],
+    ]);
   });
 });

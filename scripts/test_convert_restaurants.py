@@ -231,6 +231,21 @@ class SyntheticWorkbookTests(unittest.TestCase):
         self.assertNotIn("drink", by_id["2"]["tags"])
         self.assertTrue(by_id["3"]["features"]["drink"])
 
+    def test_country_code_only_for_overseas_rows(self) -> None:
+        """「国コード」列は値がある行だけcountryCodeとして出力し、国内行はキー自体を持たない。"""
+        header = ["No", "店名", "空港", "エリア", "ジャンル", "信頼度", "ステータス", "国コード"]
+        path = self._make(
+            header,
+            [
+                [1, "海外店", "パリ", "3区", "ベトナム料理", "◎", "営業中", "fr"],
+                [2, "国内店", "羽田", "蒲田", "洋食", "◎", "営業中", None],
+            ],
+        )
+        report = convert_restaurants.convert(path)
+        by_id = {r["id"]: r for r in report.published}
+        self.assertEqual(by_id["1"]["countryCode"], "FR")
+        self.assertNotIn("countryCode", by_id["2"])
+
     def test_valid_minimal_row_is_published(self) -> None:
         header = ["No", "店名", "空港", "エリア", "ジャンル", "信頼度", "ステータス", "タグ"]
         path = self._make(
@@ -249,18 +264,23 @@ class SyntheticWorkbookTests(unittest.TestCase):
 
 @unittest.skipUnless(REAL_EXCEL_PATH.exists(), "data/crew-gourmet-master.xlsx がローカルにありません")
 class RealMasterExcelTests(unittest.TestCase):
-    """実データ（63行・2026-08-24マスター）に対する結合テスト。"""
+    """実データ（68行・2026-08-26マスター）に対する結合テスト。"""
 
     @classmethod
     def setUpClass(cls) -> None:
         cls.report = convert_restaurants.convert()
 
-    def test_reads_63_rows(self) -> None:
-        self.assertEqual(self.report.total_rows, 63)
+    def test_reads_68_rows(self) -> None:
+        self.assertEqual(self.report.total_rows, 68)
 
     def test_publish_and_exclusion_counts(self) -> None:
-        self.assertEqual(len(self.report.published), 56)
+        self.assertEqual(len(self.report.published), 61)
         self.assertEqual(len(self.report.excluded), 7)
+
+    def test_country_code_present_only_for_song_heng(self) -> None:
+        """国旗表示は海外店舗のみ。国内店舗はcountryCodeを持たない（2026-08-26）。"""
+        with_code = [r for r in self.report.published if "countryCode" in r]
+        self.assertEqual([(r["id"], r["countryCode"]) for r in with_code], [("68", "FR")])
 
     def test_exclusion_reasons_breakdown(self) -> None:
         low_trust = [e for e in self.report.excluded if any("信頼度" in r for r in e.reasons)]
@@ -288,7 +308,7 @@ class RealMasterExcelTests(unittest.TestCase):
     def test_hours_hidden_for_uncertain_status(self) -> None:
         # 2026-07-20: No.7 Jet Lag Clubの営業時間が判明したため4→3件
         # （残りはNo.15バーパドレ・No.24うみの家・No.31ぐらっちぇ）
-        self.assertEqual(len(self.report.hours_hidden_ids), 2)
+        self.assertEqual(len(self.report.hours_hidden_ids), 3)
         for restaurant in self.report.published:
             if restaurant["id"] in self.report.hours_hidden_ids:
                 self.assertIsNone(restaurant["hours"])
