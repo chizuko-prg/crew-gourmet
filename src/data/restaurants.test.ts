@@ -34,6 +34,13 @@ describe("published restaurant data", () => {
       "ブーランジュリー フール",
       "食酒房 助",
       "Song Heng",
+      "空港ラーメン 天鳳",
+      "手打うどん 寺屋",
+      "三笠 松山店",
+      "沖縄料理あさひ",
+      "おにぎりこんが 羽田空港第1ターミナル店",
+      "おにぎりこんが 羽田空港第2ターミナル店",
+      "おにぎりこんが 羽田空港第3ターミナル店",
     ];
 
     for (const name of expectedNames) {
@@ -41,8 +48,8 @@ describe("published restaurant data", () => {
     }
   });
 
-  it("uses the current total of 61 published restaurants", () => {
-    expect(restaurants).toHaveLength(61);
+  it("uses the current total of 68 published restaurants", () => {
+    expect(restaurants).toHaveLength(68);
   });
 
   it("keeps countryCode for overseas restaurants only", () => {

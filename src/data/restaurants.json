@@ -2067,5 +2067,248 @@
     "addedAt": "2026-08-26",
     "mapQuery": "Song Heng 3区（Arts et Métiers） パリ",
     "countryCode": "FR"
+  },
+  {
+    "id": "69",
+    "name": "空港ラーメン 天鳳",
+    "airport": "羽田",
+    "area": "空港ターミナル内",
+    "access": "第1ターミナル B1 北側（モノレール羽田空港第1ビル駅から徒歩1分）",
+    "genre": "ラーメン・中華",
+    "specialty": "天鳳麺（味噌餡かけ）",
+    "crewSummary": [
+      "店舗公式サイトに航空関係者による利用・推薦のコメントが掲載されている",
+      "味噌餡かけの天鳳麺が看板メニュー",
+      "搭乗前や勤務の合間に短時間で食べられることを公式が掲げている",
+      "1993年の第1ターミナル開業以来続くターミナル内のラーメン店"
+    ],
+    "hours": "10:00〜20:00（L.O.19:45）",
+    "closedDays": "年中無休",
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": null,
+      "walkable": null,
+      "takeout": null,
+      "cashless": null,
+      "quick": true,
+      "drink": false
+    },
+    "tags": [
+      "quick"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-08-31",
+    "addedAt": "2026-08-31",
+    "mapQuery": "空港ラーメン 天鳳 空港ターミナル内 羽田"
+  },
+  {
+    "id": "70",
+    "name": "手打うどん 寺屋",
+    "airport": "新千歳",
+    "area": "札幌・山の手",
+    "access": "札幌市西区山の手3条6丁目",
+    "genre": "うどん（讃岐うどん）",
+    "specialty": "手打ちの讃岐うどん",
+    "crewSummary": [
+      "航空会社公式メディアで航空関係者本人がお気に入りの店として紹介",
+      "手打ち・茹でたてにこだわる本場仕込みの讃岐うどんが名物",
+      "売り切れ次第終了のため早めの時間が確実",
+      "昼のみの営業で月曜・火曜が定休"
+    ],
+    "hours": "平日11:00〜14:30／土日祝11:00〜15:00（いずれも売切次第終了）",
+    "closedDays": "月曜・火曜",
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": null,
+      "walkable": null,
+      "takeout": null,
+      "cashless": null,
+      "quick": null,
+      "drink": false
+    },
+    "tags": [],
+    "statusNote": null,
+    "checkedAt": "2026-08-31",
+    "addedAt": "2026-08-31",
+    "mapQuery": "手打うどん 寺屋 札幌・山の手 新千歳"
+  },
+  {
+    "id": "71",
+    "name": "三笠 松山店",
+    "airport": "那覇",
+    "area": "松山",
+    "access": "県庁前駅圏（松山1丁目）",
+    "genre": "沖縄料理・食堂（定食）",
+    "specialty": "沖縄風のちゃんぽん・定食",
+    "crewSummary": [
+      "航空関係者の公開ブログで紹介・利用情報あり",
+      "観光向けではなく地元客に親しまれる食堂",
+      "沖縄風のちゃんぽんがおすすめとして挙げられている",
+      "繁華街にあり滞在中の食事に使いやすい"
+    ],
+    "hours": null,
+    "closedDays": null,
+    "features": {
+      "breakfast": null,
+      "lateNight": null,
+      "solo": null,
+      "walkable": null,
+      "takeout": null,
+      "cashless": null,
+      "quick": null,
+      "drink": false
+    },
+    "tags": [],
+    "statusNote": "営業時間は最新情報をご確認ください",
+    "checkedAt": "2026-08-31",
+    "addedAt": "2026-08-31",
+    "mapQuery": "三笠 松山店 松山 那覇"
+  },
+  {
+    "id": "72",
+    "name": "沖縄料理あさひ",
+    "airport": "那覇",
+    "area": "県庁前・旭橋駅圏（泉崎）",
+    "access": "ゆいレール旭橋駅 徒歩1分（泉崎1丁目）",
+    "genre": "沖縄料理・居酒屋",
+    "specialty": "あさひこだわり沖縄そば・てぃだかんかんそば",
+    "crewSummary": [
+      "航空関係者の公開ブログで紹介・利用情報あり",
+      "昼は沖縄そば、夜は沖縄料理の一品も楽しめる",
+      "ジーマーミー豆腐の揚げ出しなどの一品料理が評判",
+      "駅から徒歩1分、カウンター席があり一人でも入りやすい"
+    ],
+    "hours": "沖縄そばタイム11:00〜16:00／居酒屋タイム17:00〜24:00",
+    "closedDays": "なし（年中無休）",
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": true,
+      "walkable": null,
+      "takeout": null,
+      "cashless": null,
+      "quick": null,
+      "drink": true
+    },
+    "tags": [
+      "solo",
+      "drink"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-08-31",
+    "addedAt": "2026-08-31",
+    "mapQuery": "沖縄料理あさひ 県庁前・旭橋駅圏（泉崎） 那覇"
+  },
+  {
+    "id": "73",
+    "name": "おにぎりこんが 羽田空港第1ターミナル店",
+    "airport": "羽田",
+    "area": "空港ターミナル内",
+    "access": "第1ターミナル 3F ターミナルロビー（南）",
+    "genre": "おにぎり（軽食・テイクアウト）",
+    "specialty": "北海道産ななつぼしのおにぎり・味噌汁",
+    "crewSummary": [
+      "同ブランドの空港内店舗に航空関係者による利用・紹介情報あり",
+      "北海道産ななつぼしを使い一つひとつ手作りするおにぎり専門店",
+      "朝7時から営業し出発前の食事や持ち帰りに使いやすい",
+      "購入して持ち帰る形で短時間の利用に向く"
+    ],
+    "hours": "7:00〜20:00（L.O.19:30）",
+    "closedDays": null,
+    "features": {
+      "breakfast": true,
+      "lateNight": false,
+      "solo": null,
+      "walkable": null,
+      "takeout": true,
+      "cashless": true,
+      "quick": true,
+      "drink": false
+    },
+    "tags": [
+      "breakfast",
+      "cashless",
+      "quick",
+      "takeout"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-08-31",
+    "addedAt": "2026-08-31",
+    "mapQuery": "おにぎりこんが 羽田空港第1ターミナル店 空港ターミナル内 羽田"
+  },
+  {
+    "id": "74",
+    "name": "おにぎりこんが 羽田空港第2ターミナル店",
+    "airport": "羽田",
+    "area": "空港ターミナル内",
+    "access": "第2ターミナル 3F マーケットプレイス（フードプラザ内）",
+    "genre": "おにぎり（軽食・テイクアウト）",
+    "specialty": "新潟県岩船産コシヒカリのおにぎり",
+    "crewSummary": [
+      "航空関係者による利用・紹介情報あり（2026-08-18の写真付き投稿）",
+      "新潟県岩船産コシヒカリと手仕込みの具材を使うおにぎり専門店",
+      "購入して持ち帰る形で短時間の利用に向く",
+      "空港内の食物販エリアにあり勤務の合間に立ち寄りやすい"
+    ],
+    "hours": "9:00〜18:00",
+    "closedDays": null,
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": null,
+      "walkable": null,
+      "takeout": true,
+      "cashless": true,
+      "quick": true,
+      "drink": false
+    },
+    "tags": [
+      "cashless",
+      "quick",
+      "takeout"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-08-31",
+    "addedAt": "2026-08-31",
+    "mapQuery": "おにぎりこんが 羽田空港第2ターミナル店 空港ターミナル内 羽田"
+  },
+  {
+    "id": "75",
+    "name": "おにぎりこんが 羽田空港第3ターミナル店",
+    "airport": "羽田",
+    "area": "空港ターミナル内",
+    "access": "第3ターミナル 4F 江戸小路",
+    "genre": "おにぎり（軽食・テイクアウト）",
+    "specialty": "新潟県岩船産コシヒカリのおにぎり",
+    "crewSummary": [
+      "同ブランドの空港内店舗に航空関係者による利用・紹介情報あり",
+      "新潟県岩船産コシヒカリで作る大きめのおにぎりが看板",
+      "朝7時半から営業し国際線利用時の食事や持ち帰りに使いやすい",
+      "購入して持ち帰る形で短時間の利用に向く"
+    ],
+    "hours": "7:30〜20:30",
+    "closedDays": null,
+    "features": {
+      "breakfast": true,
+      "lateNight": false,
+      "solo": null,
+      "walkable": null,
+      "takeout": true,
+      "cashless": true,
+      "quick": true,
+      "drink": false
+    },
+    "tags": [
+      "breakfast",
+      "cashless",
+      "quick",
+      "takeout"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-08-31",
+    "addedAt": "2026-08-31",
+    "mapQuery": "おにぎりこんが 羽田空港第3ターミナル店 空港ターミナル内 羽田"
   }
 ]
