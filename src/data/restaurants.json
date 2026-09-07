@@ -2310,5 +2310,37 @@
     "checkedAt": "2026-08-31",
     "addedAt": "2026-08-31",
     "mapQuery": "おにぎりこんが 羽田空港第3ターミナル店 空港ターミナル内 羽田"
+  },
+  {
+    "id": "76",
+    "name": "中国料理 m'S style",
+    "airport": "成田",
+    "area": "富里",
+    "access": "富里市七栄（成田空港周辺・車利用）",
+    "genre": "中国料理",
+    "specialty": "麻婆豆腐・三不粘（サンプーチャン）",
+    "crewSummary": [
+      "テレビ番組で航空関係者が通う店として紹介",
+      "四川・広東などを融合させた本格中国料理の店",
+      "麻婆豆腐などの定番中華が評判",
+      "空港周辺の富里エリアにあり滞在中の食事に使える"
+    ],
+    "hours": "ランチ11:30〜14:00（L.O.）／ディナー17:30〜21:00（L.O.）",
+    "closedDays": "月曜・木曜ディナー",
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": null,
+      "walkable": null,
+      "takeout": null,
+      "cashless": null,
+      "quick": null,
+      "drink": false
+    },
+    "tags": [],
+    "statusNote": null,
+    "checkedAt": "2026-09-07",
+    "addedAt": "2026-09-07",
+    "mapQuery": "中国料理 m'S style 富里 成田"
   }
 ]

@@ -41,6 +41,7 @@ describe("published restaurant data", () => {
       "おにぎりこんが 羽田空港第1ターミナル店",
       "おにぎりこんが 羽田空港第2ターミナル店",
       "おにぎりこんが 羽田空港第3ターミナル店",
+      "中国料理 m'S style",
     ];
 
     for (const name of expectedNames) {
@@ -48,8 +49,8 @@ describe("published restaurant data", () => {
     }
   });
 
-  it("uses the current total of 68 published restaurants", () => {
-    expect(restaurants).toHaveLength(68);
+  it("uses the current total of 69 published restaurants", () => {
+    expect(restaurants).toHaveLength(69);
   });
 
   it("keeps countryCode for overseas restaurants only", () => {

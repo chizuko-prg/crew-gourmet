@@ -264,17 +264,17 @@ class SyntheticWorkbookTests(unittest.TestCase):
 
 @unittest.skipUnless(REAL_EXCEL_PATH.exists(), "data/crew-gourmet-master.xlsx がローカルにありません")
 class RealMasterExcelTests(unittest.TestCase):
-    """実データ（75行・2026-08-31マスター）に対する結合テスト。"""
+    """実データ（76行・2026-09-07マスター）に対する結合テスト。"""
 
     @classmethod
     def setUpClass(cls) -> None:
         cls.report = convert_restaurants.convert()
 
-    def test_reads_75_rows(self) -> None:
-        self.assertEqual(self.report.total_rows, 75)
+    def test_reads_76_rows(self) -> None:
+        self.assertEqual(self.report.total_rows, 76)
 
     def test_publish_and_exclusion_counts(self) -> None:
-        self.assertEqual(len(self.report.published), 68)
+        self.assertEqual(len(self.report.published), 69)
         self.assertEqual(len(self.report.excluded), 7)
 
     def test_country_code_present_only_for_song_heng(self) -> None:
