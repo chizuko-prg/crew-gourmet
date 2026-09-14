@@ -2342,5 +2342,111 @@
     "checkedAt": "2026-09-07",
     "addedAt": "2026-09-07",
     "mapQuery": "中国料理 m'S style 富里 成田"
+  },
+  {
+    "id": "77",
+    "name": "三芳家",
+    "airport": "成田",
+    "area": "成田駅圏",
+    "access": "JR成田駅/京成成田駅 徒歩圏（成田山表参道・仲町）",
+    "genre": "甘味処・和菓子",
+    "specialty": "あんみつ・かき氷（夏）・おしるこ（冬）",
+    "crewSummary": [
+      "航空関係者がプライベートで通う隠れ家的な甘味処として実名メディアで紹介",
+      "成田山表参道から細い路地を入った先にある和の空間",
+      "夏はかき氷、冬はおしるこなど季節の甘味が楽しめる",
+      "推薦記事は2014年で、近年の航空関係者利用の根拠は未確認"
+    ],
+    "hours": "10:00〜17:00",
+    "closedDays": "水曜（1月・5月・9月は無休）",
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": true,
+      "walkable": true,
+      "takeout": null,
+      "cashless": null,
+      "quick": null,
+      "drink": false
+    },
+    "tags": [
+      "solo",
+      "walkable"
+    ],
+    "statusNote": "定休日は月により変動します。ご来店前に公式サイトで当月の休業日をご確認ください。",
+    "checkedAt": "2026-09-14",
+    "addedAt": "2026-09-14",
+    "mapQuery": "三芳家 成田駅圏 成田"
+  },
+  {
+    "id": "78",
+    "name": "下田康生堂ぱん茶屋",
+    "airport": "成田",
+    "area": "成田駅圏",
+    "access": "JR成田駅東口 徒歩6分（成田山表参道・上町）",
+    "genre": "ベーカリーカフェ",
+    "specialty": "うなぎパン・コッペパン・ランチセット",
+    "crewSummary": [
+      "航空関係者がお得なランチとして実名メディアで推薦",
+      "元うなぎ専門店がベーカリーカフェへ転業した参道沿いの店",
+      "名物のうなぎパンをはじめパンの種類が豊富",
+      "推薦記事は2014年で、近年の航空関係者利用の根拠は未確認"
+    ],
+    "hours": null,
+    "closedDays": "火曜",
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": true,
+      "walkable": true,
+      "takeout": true,
+      "cashless": null,
+      "quick": null,
+      "drink": false
+    },
+    "tags": [
+      "solo",
+      "walkable",
+      "takeout"
+    ],
+    "statusNote": "営業時間は最新情報をご確認ください",
+    "checkedAt": "2026-09-14",
+    "addedAt": "2026-09-14",
+    "mapQuery": "下田康生堂ぱん茶屋 成田駅圏 成田"
+  },
+  {
+    "id": "79",
+    "name": "農家の野菜×創作料理101",
+    "airport": "成田",
+    "area": "成田駅圏",
+    "access": "JR成田駅東口 徒歩3分／京成成田駅西口 徒歩2分",
+    "genre": "創作フレンチ・ビストロ",
+    "specialty": "農家の野菜を使った創作料理・自家製ピッツァ",
+    "crewSummary": [
+      "航空関係者がプライベート利用店として実名メディアで推薦",
+      "契約農家の野菜をふんだんに使った創作フレンチ",
+      "席数が少なく予約がすすめられる人気店",
+      "推薦記事は2014年で、近年の航空関係者利用の根拠は未確認"
+    ],
+    "hours": "17:00〜23:00（L.O.22:00）",
+    "closedDays": "月曜・第2/第3火曜",
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": null,
+      "walkable": true,
+      "takeout": null,
+      "cashless": null,
+      "quick": null,
+      "drink": true
+    },
+    "tags": [
+      "walkable",
+      "drink"
+    ],
+    "statusNote": "席数が少なく予約がおすすめです。最新の営業情報は公式サイトをご確認ください。",
+    "checkedAt": "2026-09-14",
+    "addedAt": "2026-09-14",
+    "mapQuery": "農家の野菜×創作料理101 成田駅圏 成田"
   }
 ]

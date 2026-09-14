@@ -264,17 +264,17 @@ class SyntheticWorkbookTests(unittest.TestCase):
 
 @unittest.skipUnless(REAL_EXCEL_PATH.exists(), "data/crew-gourmet-master.xlsx がローカルにありません")
 class RealMasterExcelTests(unittest.TestCase):
-    """実データ（76行・2026-09-07マスター）に対する結合テスト。"""
+    """実データ（79行・2026-09-14マスター）に対する結合テスト。"""
 
     @classmethod
     def setUpClass(cls) -> None:
         cls.report = convert_restaurants.convert()
 
-    def test_reads_76_rows(self) -> None:
-        self.assertEqual(self.report.total_rows, 76)
+    def test_reads_79_rows(self) -> None:
+        self.assertEqual(self.report.total_rows, 79)
 
     def test_publish_and_exclusion_counts(self) -> None:
-        self.assertEqual(len(self.report.published), 69)
+        self.assertEqual(len(self.report.published), 72)
         self.assertEqual(len(self.report.excluded), 7)
 
     def test_country_code_present_only_for_song_heng(self) -> None:
@@ -306,9 +306,9 @@ class RealMasterExcelTests(unittest.TestCase):
         self.assertIn("lateNight", jet_lag["tags"])
 
     def test_hours_hidden_for_uncertain_status(self) -> None:
-        # 2026-07-20: No.7 Jet Lag Clubの営業時間が判明したため4→3件
-        # （残りはNo.15バーパドレ・No.24うみの家・No.31ぐらっちぇ）
-        self.assertEqual(len(self.report.hours_hidden_ids), 4)
+        # 2026-09-14: No.78下田康生堂ぱん茶屋を追加したため4→5件
+        # （No.24うみの家・No.31ぐらっちぇ・No.67助・No.71三笠・No.78ぱん茶屋）
+        self.assertEqual(len(self.report.hours_hidden_ids), 5)
         for restaurant in self.report.published:
             if restaurant["id"] in self.report.hours_hidden_ids:
                 self.assertIsNone(restaurant["hours"])
