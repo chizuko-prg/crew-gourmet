@@ -2448,5 +2448,113 @@
     "checkedAt": "2026-09-14",
     "addedAt": "2026-09-14",
     "mapQuery": "農家の野菜×創作料理101 成田駅圏 成田"
+  },
+  {
+    "id": "80",
+    "name": "酔イ良イ 蒲田総本家",
+    "airport": "羽田",
+    "area": "蒲田",
+    "access": "JR蒲田駅西口 徒歩1〜2分（西蒲田7-29-9 第二田中ビル1F）",
+    "genre": "日本酒・海鮮居酒屋",
+    "specialty": "本まぐろ・豊洲直送の鮮魚・日本酒",
+    "crewSummary": [
+      "航空関係者本人の公開X投稿で蒲田のおすすめ店として紹介",
+      "仲卸から仕入れる本まぐろや鮮魚の刺身が売り",
+      "年間を通じて多くの銘柄の日本酒をそろえる",
+      "蒲田駅西口から徒歩すぐでステイ中に立ち寄りやすい"
+    ],
+    "hours": "月〜金・祝17:00〜24:00／土16:00〜24:00（料理L.O.23:00）",
+    "closedDays": "日曜",
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": true,
+      "walkable": true,
+      "takeout": null,
+      "cashless": true,
+      "quick": null,
+      "drink": true
+    },
+    "tags": [
+      "solo",
+      "walkable",
+      "cashless",
+      "drink"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-09-14",
+    "addedAt": "2026-09-14",
+    "mapQuery": "酔イ良イ 蒲田総本家 蒲田 羽田"
+  },
+  {
+    "id": "81",
+    "name": "煮込 蔦八",
+    "airport": "羽田",
+    "area": "大森",
+    "access": "JR大森駅東口 徒歩5分（大森北1-35-8）",
+    "genre": "煮込み・大衆居酒屋",
+    "specialty": "牛もつ煮込み",
+    "crewSummary": [
+      "航空関係者本人の公開X投稿でおすすめ店として紹介",
+      "コの字カウンターの中の大鍋で仕込む牛もつ煮込みが名物",
+      "昔ながらの雰囲気が残る大衆居酒屋",
+      "JR大森駅から徒歩圏で京急蒲田・羽田方面からも寄りやすい"
+    ],
+    "hours": null,
+    "closedDays": null,
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": true,
+      "walkable": null,
+      "takeout": null,
+      "cashless": null,
+      "quick": null,
+      "drink": true
+    },
+    "tags": [
+      "solo",
+      "drink"
+    ],
+    "statusNote": "営業時間は最新情報をご確認ください",
+    "checkedAt": "2026-09-14",
+    "addedAt": "2026-09-14",
+    "mapQuery": "煮込 蔦八 大森 羽田"
+  },
+  {
+    "id": "82",
+    "name": "くずし割烹 キンサク",
+    "airport": "羽田",
+    "area": "糀谷",
+    "access": "京急空港線 糀谷駅中央口 徒歩5分（南蒲田3-13-14 大山荘）",
+    "genre": "割烹・和食",
+    "specialty": "旬の鮮魚の刺身・おまかせコース",
+    "crewSummary": [
+      "航空関係者本人の公開X投稿でおすすめ店として紹介",
+      "カウンターのみの小さな店で店主と話しながら食事ができる",
+      "旬の鮮魚の刺身と日本酒が評判",
+      "羽田空港へ向かう京急空港線沿線にあり利用しやすい"
+    ],
+    "hours": "17:00〜翌1:00（料理L.O.翌0:00／ドリンクL.O.翌0:30）",
+    "closedDays": "日曜",
+    "features": {
+      "breakfast": false,
+      "lateNight": true,
+      "solo": true,
+      "walkable": null,
+      "takeout": null,
+      "cashless": null,
+      "quick": null,
+      "drink": true
+    },
+    "tags": [
+      "lateNight",
+      "solo",
+      "drink"
+    ],
+    "statusNote": "カウンターのみの小さなお店です。ご来店前の予約がおすすめです。",
+    "checkedAt": "2026-09-14",
+    "addedAt": "2026-09-14",
+    "mapQuery": "くずし割烹 キンサク 糀谷 羽田"
   }
 ]

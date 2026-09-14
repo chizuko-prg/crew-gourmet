@@ -45,6 +45,9 @@ describe("published restaurant data", () => {
       "三芳家",
       "下田康生堂ぱん茶屋",
       "農家の野菜×創作料理101",
+      "酔イ良イ 蒲田総本家",
+      "煮込 蔦八",
+      "くずし割烹 キンサク",
     ];
 
     for (const name of expectedNames) {
@@ -52,8 +55,8 @@ describe("published restaurant data", () => {
     }
   });
 
-  it("uses the current total of 72 published restaurants", () => {
-    expect(restaurants).toHaveLength(72);
+  it("uses the current total of 75 published restaurants", () => {
+    expect(restaurants).toHaveLength(75);
   });
 
   it("keeps countryCode for overseas restaurants only", () => {
