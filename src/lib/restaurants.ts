@@ -102,6 +102,7 @@ const AREA_DISPLAY_ORDER_BY_AIRPORT: Readonly<Record<string, readonly string[]>>
     "千歳駅圏",
     "千歳駅圏（幸町）",
     "千歳駅圏（東雲町）",
+    "千歳駅圏（東郊）",
     "札幌・狸小路",
     "札幌・山の手",
   ],

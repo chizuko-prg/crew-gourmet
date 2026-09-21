@@ -806,8 +806,8 @@
       "地元の旬の食材を使った料理が評判",
       "2026年1月に29周年"
     ],
-    "hours": null,
-    "closedDays": "月曜＋不定休（祝日と重なる場合は変動）",
+    "hours": "17:00〜23:00",
+    "closedDays": "日曜、他（公式サイト表記）",
     "features": {
       "breakfast": null,
       "lateNight": null,
@@ -821,7 +821,7 @@
     "tags": [
       "drink"
     ],
-    "statusNote": "営業時間は最新情報をご確認ください",
+    "statusNote": null,
     "checkedAt": "2026-07-10",
     "addedAt": "2026-07-10",
     "mapQuery": "ご馳家ぐらっちぇ 本店 鳥取駅圏 鳥取"
@@ -2556,5 +2556,40 @@
     "checkedAt": "2026-09-14",
     "addedAt": "2026-09-14",
     "mapQuery": "くずし割烹 キンサク 糀谷 羽田"
+  },
+  {
+    "id": "83",
+    "name": "北々亭 千歳店",
+    "airport": "新千歳",
+    "area": "千歳駅圏（東郊）",
+    "access": "JR千歳駅から車圏（東郊1-1-1・サーモンパーク千歳そば）／新千歳空港から車約16分・無料駐車場あり",
+    "genre": "回転寿司",
+    "specialty": "職人が握る北海道産の旬の魚介",
+    "crewSummary": [
+      "航空関係者（千歳での勤務経験あり）が「千歳空港周辺に泊まるなら行くべき店」として推薦",
+      "職人がこだわりのネタを丁寧に握る本格回転寿司",
+      "カウンター席があり一人でも利用しやすい",
+      "お持ち帰り寿司の電話予約に対応"
+    ],
+    "hours": "11:00〜21:00（L.O.20:45）",
+    "closedDays": null,
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": true,
+      "walkable": null,
+      "takeout": true,
+      "cashless": null,
+      "quick": null,
+      "drink": false
+    },
+    "tags": [
+      "solo",
+      "takeout"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-09-21",
+    "addedAt": "2026-09-21",
+    "mapQuery": "北々亭 千歳店 千歳駅圏（東郊） 新千歳"
   }
 ]
