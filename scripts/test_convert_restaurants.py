@@ -264,17 +264,17 @@ class SyntheticWorkbookTests(unittest.TestCase):
 
 @unittest.skipUnless(REAL_EXCEL_PATH.exists(), "data/crew-gourmet-master.xlsx がローカルにありません")
 class RealMasterExcelTests(unittest.TestCase):
-    """実データ（83行・2026-09-21マスター）に対する結合テスト。"""
+    """実データ（85行・2026-09-28マスター）に対する結合テスト。"""
 
     @classmethod
     def setUpClass(cls) -> None:
         cls.report = convert_restaurants.convert()
 
-    def test_reads_83_rows(self) -> None:
-        self.assertEqual(self.report.total_rows, 83)
+    def test_reads_85_rows(self) -> None:
+        self.assertEqual(self.report.total_rows, 85)
 
     def test_publish_and_exclusion_counts(self) -> None:
-        self.assertEqual(len(self.report.published), 76)
+        self.assertEqual(len(self.report.published), 78)
         self.assertEqual(len(self.report.excluded), 7)
 
     def test_country_code_present_only_for_song_heng(self) -> None:
@@ -289,7 +289,8 @@ class RealMasterExcelTests(unittest.TestCase):
         ]
         closed = [e for e in self.report.excluded if any("閉店" in r for r in e.reasons)]
         self.assertEqual(len(low_trust), 1)
-        # No.16リボリータは閉店・移転へ修正したため営業状況要確認は6→5、閉店1
+        # 2026-09-28: No.17〜21は営業時間・定休日・最終確認日のみ補完し、ステータス（公開可否）は
+        # 管理人承認が別途必要なため「営業状況要確認」のまま維持（5件）
         self.assertEqual(len(status_unconfirmed), 5)
         self.assertEqual(len(closed), 1)
 

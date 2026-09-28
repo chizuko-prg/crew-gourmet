@@ -2591,5 +2591,69 @@
     "checkedAt": "2026-09-21",
     "addedAt": "2026-09-21",
     "mapQuery": "北々亭 千歳店 千歳駅圏（東郊） 新千歳"
+  },
+  {
+    "id": "84",
+    "name": "レストラン コスモス",
+    "airport": "宮崎",
+    "area": "空港ターミナル内",
+    "access": "空港ターミナルビル3F",
+    "genre": "和洋中・宮崎郷土料理",
+    "specialty": null,
+    "crewSummary": [
+      "元航空関係者本人が実際に訪問し、宮崎牛を使った牛丼を実食したと記録（2026年2月）",
+      "飛行機や滑走路を眺められる席がある空港内レストラン"
+    ],
+    "hours": "10:30〜19:45（LO19:15）",
+    "closedDays": null,
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": true,
+      "walkable": null,
+      "takeout": null,
+      "cashless": null,
+      "quick": null,
+      "drink": false
+    },
+    "tags": [
+      "solo"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-09-28",
+    "addedAt": "2026-09-28",
+    "mapQuery": "レストラン コスモス 空港ターミナル内 宮崎"
+  },
+  {
+    "id": "85",
+    "name": "アミーチデルテ",
+    "airport": "羽田",
+    "area": "空港ターミナル内",
+    "access": "第2ターミナル5F（保安検査前）",
+    "genre": "カフェ・軽食（イタリアン）",
+    "specialty": null,
+    "crewSummary": [
+      "航空会社公式メディアで航空関係者がパンケーキ・パフェを紹介",
+      "展望デッキを望む席で搭乗前に楽しめると紹介"
+    ],
+    "hours": "9:00〜19:30（LO19:00）",
+    "closedDays": "水曜日",
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": null,
+      "walkable": null,
+      "takeout": true,
+      "cashless": null,
+      "quick": null,
+      "drink": false
+    },
+    "tags": [
+      "takeout"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-09-28",
+    "addedAt": "2026-09-28",
+    "mapQuery": "アミーチデルテ 空港ターミナル内 羽田"
   }
 ]
