@@ -517,7 +517,7 @@
       "drink"
     ],
     "statusNote": null,
-    "checkedAt": "2026-07-10",
+    "checkedAt": "2026-10-05",
     "addedAt": "2026-07-10",
     "mapQuery": "もつ焼き いとや 蒲田 羽田"
   },
@@ -534,7 +534,7 @@
       "レバー特化の立ち飲み酒場",
       "「第2の我が家」がコンセプトの寛げる店"
     ],
-    "hours": "平日16:00〜23:00/土日祝13:00〜23:00（情報揺れあり）",
+    "hours": "平日16:00〜23:00/土日祝13:00〜23:00",
     "closedDays": "不定休",
     "features": {
       "breakfast": false,
@@ -552,7 +552,7 @@
       "drink"
     ],
     "statusNote": null,
-    "checkedAt": "2026-07-10",
+    "checkedAt": "2026-10-05",
     "addedAt": "2026-07-10",
     "mapQuery": "レバーランド 蒲田 羽田"
   },
@@ -654,7 +654,7 @@
       "drink"
     ],
     "statusNote": null,
-    "checkedAt": "2026-07-10",
+    "checkedAt": "2026-10-05",
     "addedAt": "2026-07-10",
     "mapQuery": "大衆酒場BEETLE 本店 蒲田 羽田"
   },
