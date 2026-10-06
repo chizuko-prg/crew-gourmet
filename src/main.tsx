@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import { Analytics } from "@vercel/analytics/react";
 import { App } from "./App";
+import { stripQueryAndHash } from "./lib/analyticsUrl";
 import "./styles/global.css";
 
 const container = document.getElementById("root");
@@ -15,6 +16,6 @@ createRoot(container).render(
     <BrowserRouter>
       <App />
     </BrowserRouter>
-    <Analytics />
+    <Analytics beforeSend={stripQueryAndHash} />
   </StrictMode>,
 );
