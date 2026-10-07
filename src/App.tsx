@@ -19,6 +19,16 @@ export function App() {
             <Route path="/restaurants/:id" element={<RestaurantDetail />} />
             <Route path="/favorites" element={<Favorites />} />
           </Routes>
+          <footer className="app-footer">
+            アクセス解析・端末内保存の扱いについて：
+            <a
+              href="https://sky-apps-terminal.vercel.app/privacy/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              プライバシーポリシー
+            </a>
+          </footer>
         </main>
         <BottomNavigation />
       </div>

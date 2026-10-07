@@ -80,6 +80,21 @@ ol {
   padding: 16px 16px 96px;
 }
 
+.app-footer {
+  margin-top: 28px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.8;
+  color: var(--color-text-secondary);
+}
+
+.app-footer a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  white-space: nowrap;
+}
+
 .chip-row {
   display: flex;
   gap: 8px;
