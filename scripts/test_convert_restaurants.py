@@ -264,23 +264,44 @@ class SyntheticWorkbookTests(unittest.TestCase):
 
 @unittest.skipUnless(REAL_EXCEL_PATH.exists(), "data/crew-gourmet-master.xlsx がローカルにありません")
 class RealMasterExcelTests(unittest.TestCase):
-    """実データ（85行・2026-09-28マスター）に対する結合テスト。"""
+    """実データ（87行・2026-10-19マスター）に対する結合テスト。"""
 
     @classmethod
     def setUpClass(cls) -> None:
         cls.report = convert_restaurants.convert()
 
-    def test_reads_85_rows(self) -> None:
-        self.assertEqual(self.report.total_rows, 85)
+    def test_reads_87_rows(self) -> None:
+        self.assertEqual(self.report.total_rows, 87)
 
     def test_publish_and_exclusion_counts(self) -> None:
-        self.assertEqual(len(self.report.published), 78)
+        self.assertEqual(len(self.report.published), 80)
         self.assertEqual(len(self.report.excluded), 7)
 
-    def test_country_code_present_only_for_song_heng(self) -> None:
-        """国旗表示は海外店舗のみ。国内店舗はcountryCodeを持たない（2026-08-26）。"""
+    def test_country_code_present_only_for_overseas(self) -> None:
+        """国旗表示は海外店舗のみ。国内店舗はcountryCodeを持たない（2026-08-26／2026-10-19にNo.86・87追加）。"""
         with_code = [r for r in self.report.published if "countryCode" in r]
-        self.assertEqual([(r["id"], r["countryCode"]) for r in with_code], [("68", "FR")])
+        self.assertEqual(
+            [(r["id"], r["countryCode"]) for r in with_code],
+            [("68", "FR"), ("86", "DE"), ("87", "US")],
+        )
+
+    def test_new_overseas_restaurants_added_2026_10_19(self) -> None:
+        """No.86 Baseler Eck（営業時間は要確認のため非表示）とNo.87 Nalu（営業時間は公式確認済み）。"""
+        by_id = {r["id"]: r for r in self.report.published}
+        baseler = by_id["86"]
+        self.assertEqual(baseler["name"], "Baseler Eck")
+        self.assertIsNone(baseler["hours"])
+        self.assertEqual(baseler["statusNote"], "営業時間は最新情報をご確認ください")
+        nalu = by_id["87"]
+        self.assertEqual(nalu["airport"], "ホノルル")
+        self.assertEqual(nalu["hours"], "7:00〜20:00")
+        self.assertIn("breakfast", nalu["tags"])
+
+    def test_non_published_ids_unchanged(self) -> None:
+        self.assertEqual(
+            [e.id for e in self.report.excluded],
+            ["6", "16", "17", "18", "19", "20", "21"],
+        )
 
     def test_exclusion_reasons_breakdown(self) -> None:
         low_trust = [e for e in self.report.excluded if any("信頼度" in r for r in e.reasons)]
@@ -309,7 +330,8 @@ class RealMasterExcelTests(unittest.TestCase):
     def test_hours_hidden_for_uncertain_status(self) -> None:
         # 2026-09-21: No.31ぐらっちぇの営業時間を公式サイトで確定したため6→5件
         # （No.24うみの家・No.67助・No.71三笠・No.78ぱん茶屋・No.81蔦八）
-        self.assertEqual(len(self.report.hours_hidden_ids), 5)
+        # 2026-10-19: No.86 Baseler Eckを営業時間要確認で追加したため5→6件
+        self.assertEqual(len(self.report.hours_hidden_ids), 6)
         for restaurant in self.report.published:
             if restaurant["id"] in self.report.hours_hidden_ids:
                 self.assertIsNone(restaurant["hours"])

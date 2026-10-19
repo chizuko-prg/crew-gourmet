@@ -789,7 +789,7 @@
       "takeout"
     ],
     "statusNote": null,
-    "checkedAt": "2026-07-10",
+    "checkedAt": "2026-10-19",
     "addedAt": "2026-07-10",
     "mapQuery": "かま栄 新千歳空港店 空港ターミナル内 新千歳"
   },
@@ -2655,5 +2655,73 @@
     "checkedAt": "2026-09-28",
     "addedAt": "2026-09-28",
     "mapQuery": "アミーチデルテ 空港ターミナル内 羽田"
+  },
+  {
+    "id": "86",
+    "name": "Baseler Eck",
+    "airport": "フランクフルト",
+    "area": "フランクフルト",
+    "access": "Baseler Platz 7, 60329 Frankfurt am Main",
+    "genre": "ドイツ料理・居酒屋系",
+    "specialty": "Schweinshaxe（豚すね肉料理）などのドイツ料理",
+    "crewSummary": [
+      "フランクフルトのステイ先として、航空関係者に長年利用されている店",
+      "壁に航空関係のステッカーが多数貼られている",
+      "豚すね肉料理などのドイツ料理とビールが楽しめる"
+    ],
+    "hours": null,
+    "closedDays": null,
+    "features": {
+      "breakfast": null,
+      "lateNight": null,
+      "solo": null,
+      "walkable": null,
+      "takeout": null,
+      "cashless": null,
+      "quick": null,
+      "drink": true
+    },
+    "tags": [
+      "drink"
+    ],
+    "statusNote": "営業時間は最新情報をご確認ください",
+    "checkedAt": "2026-10-19",
+    "addedAt": "2026-10-19",
+    "mapQuery": "Baseler Eck フランクフルト フランクフルト",
+    "countryCode": "DE"
+  },
+  {
+    "id": "87",
+    "name": "Nalu Health Bar & Cafe Waikiki",
+    "airport": "ホノルル",
+    "area": "ワイキキ",
+    "access": "226 Lewers St, Honolulu, HI 96815（Waikiki Beach Walk内）",
+    "genre": "カフェ・アサイーボウル・朝食",
+    "specialty": "アサイーボウル",
+    "crewSummary": [
+      "航空関係者がホノルルのステイ中に利用・推薦しているカフェ",
+      "ハワイに来るたびにアサイーボウルを食べると紹介",
+      "朝7時から開いており、散歩がてらコーヒーと一緒に楽しめる"
+    ],
+    "hours": "7:00〜20:00",
+    "closedDays": "無休",
+    "features": {
+      "breakfast": true,
+      "lateNight": false,
+      "solo": null,
+      "walkable": null,
+      "takeout": null,
+      "cashless": null,
+      "quick": null,
+      "drink": false
+    },
+    "tags": [
+      "breakfast"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-10-19",
+    "addedAt": "2026-10-19",
+    "mapQuery": "Nalu Health Bar & Cafe Waikiki ワイキキ ホノルル",
+    "countryCode": "US"
   }
 ]

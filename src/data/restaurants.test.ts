@@ -56,14 +56,16 @@ describe("published restaurant data", () => {
     }
   });
 
-  it("uses the current total of 78 published restaurants", () => {
-    expect(restaurants).toHaveLength(78);
+  it("uses the current total of 80 published restaurants", () => {
+    expect(restaurants).toHaveLength(80);
   });
 
   it("keeps countryCode for overseas restaurants only", () => {
     const withCountry = restaurants.filter((restaurant) => restaurant.countryCode);
     expect(withCountry.map((restaurant) => [restaurant.name, restaurant.countryCode])).toEqual([
       ["Song Heng", "FR"],
+      ["Baseler Eck", "DE"],
+      ["Nalu Health Bar & Cafe Waikiki", "US"],
     ]);
   });
 });
