@@ -20,7 +20,9 @@ export function App() {
             <Route path="/favorites" element={<Favorites />} />
           </Routes>
           <footer className="app-footer">
-            アクセス解析・端末内保存の扱いについて：
+            本アプリでは、Vercel Web Analyticsによるアクセス計測を終了しました。
+            <br />
+            データの扱いについて：
             <a
               href="https://sky-apps-terminal.vercel.app/privacy/"
               target="_blank"
