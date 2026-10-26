@@ -2723,5 +2723,100 @@
     "addedAt": "2026-10-19",
     "mapQuery": "Nalu Health Bar & Cafe Waikiki ワイキキ ホノルル",
     "countryCode": "US"
+  },
+  {
+    "id": "88",
+    "name": "スープカレーGARAKU 千歳店",
+    "airport": "新千歳",
+    "area": "千歳駅周辺",
+    "access": "北海道千歳市栄町7丁目1237-21",
+    "genre": "スープカレー",
+    "specialty": null,
+    "crewSummary": [
+      "航空関係者が千歳ステイ中に実際に利用",
+      "ステイ先から近く、食事利用しやすい店舗として紹介"
+    ],
+    "hours": "10:30〜21:30（LO21:00）",
+    "closedDays": "不定休",
+    "features": {
+      "breakfast": false,
+      "lateNight": false,
+      "solo": null,
+      "walkable": null,
+      "takeout": null,
+      "cashless": null,
+      "quick": null,
+      "drink": false
+    },
+    "tags": [],
+    "statusNote": null,
+    "checkedAt": "2026-10-26",
+    "addedAt": "2026-10-26",
+    "mapQuery": "スープカレーGARAKU 千歳店 千歳駅周辺 新千歳"
+  },
+  {
+    "id": "89",
+    "name": "スターバックス コーヒー 羽田空港第1ターミナル THE HANEDA HOUSE5階店",
+    "airport": "羽田",
+    "area": "羽田空港第1ターミナル",
+    "access": "第1ターミナル5階（THE HANEDA HOUSE内）",
+    "genre": "カフェ",
+    "specialty": null,
+    "crewSummary": [
+      "航空関係者が羽田勤務の際のお気に入りスポットとして紹介",
+      "滑走路を眺められるカフェ"
+    ],
+    "hours": "6:30〜21:00",
+    "closedDays": "不定休",
+    "features": {
+      "breakfast": true,
+      "lateNight": false,
+      "solo": null,
+      "walkable": null,
+      "takeout": null,
+      "cashless": null,
+      "quick": null,
+      "drink": false
+    },
+    "tags": [
+      "breakfast"
+    ],
+    "statusNote": null,
+    "checkedAt": "2026-10-26",
+    "addedAt": "2026-10-26",
+    "mapQuery": "スターバックス コーヒー 羽田空港第1ターミナル THE HANEDA HOUSE5階店 羽田空港第1ターミナル 羽田"
+  },
+  {
+    "id": "91",
+    "name": "Knotch Flap",
+    "airport": "那覇",
+    "area": "安里・栄町周辺",
+    "access": "安里駅周辺（那覇市字安里388-13 栄町ロータリービル2F）",
+    "genre": "バー・カフェ（航空バー）",
+    "specialty": null,
+    "crewSummary": [
+      "航空関係者が沖縄ステイ中に実際に利用",
+      "航空関係者の利用実績あり",
+      "飛行機の模型や資料が並ぶ、航空好きが集まって語り合える店"
+    ],
+    "hours": null,
+    "closedDays": null,
+    "features": {
+      "breakfast": false,
+      "lateNight": null,
+      "solo": null,
+      "walkable": null,
+      "takeout": null,
+      "cashless": null,
+      "quick": null,
+      "drink": true
+    },
+    "tags": [
+      "drink"
+    ],
+    "statusNote": "営業時間は最新情報をご確認ください",
+    "checkedAt": "2026-10-26",
+    "addedAt": "2026-10-26",
+    "mapQuery": "Knotch Flap 安里・栄町周辺 那覇"
   }
 ]
