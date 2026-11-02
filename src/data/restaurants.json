@@ -2818,5 +2818,35 @@
     "checkedAt": "2026-10-26",
     "addedAt": "2026-10-26",
     "mapQuery": "Knotch Flap 安里・栄町周辺 那覇"
+  },
+  {
+    "id": "92",
+    "name": "Şehzade Cağ Kebap",
+    "airport": "イスタンブール",
+    "area": "シルケジ",
+    "access": "Hoca Paşa, Hocapaşa Camii Sok. No:6 D:4, 34110 Fatih/İstanbul",
+    "genre": "トルコ料理・Cağ Kebap",
+    "specialty": null,
+    "crewSummary": [
+      "航空関係者がイスタンブールのステイ中に実際に利用"
+    ],
+    "hours": null,
+    "closedDays": null,
+    "features": {
+      "breakfast": null,
+      "lateNight": null,
+      "solo": null,
+      "walkable": null,
+      "takeout": null,
+      "cashless": null,
+      "quick": null,
+      "drink": false
+    },
+    "tags": [],
+    "statusNote": "営業時間は最新情報をご確認ください",
+    "checkedAt": "2026-11-02",
+    "addedAt": "2026-11-02",
+    "mapQuery": "Şehzade Cağ Kebap シルケジ イスタンブール",
+    "countryCode": "TR"
   }
 ]

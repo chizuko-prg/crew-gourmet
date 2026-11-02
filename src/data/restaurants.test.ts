@@ -56,8 +56,8 @@ describe("published restaurant data", () => {
     }
   });
 
-  it("uses the current total of 83 published restaurants", () => {
-    expect(restaurants).toHaveLength(83);
+  it("uses the current total of 84 published restaurants", () => {
+    expect(restaurants).toHaveLength(84);
   });
 
   it("keeps countryCode for overseas restaurants only", () => {
@@ -66,6 +66,7 @@ describe("published restaurant data", () => {
       ["Song Heng", "FR"],
       ["Baseler Eck", "DE"],
       ["Nalu Health Bar & Cafe Waikiki", "US"],
+      ["Şehzade Cağ Kebap", "TR"],
     ]);
   });
 });
