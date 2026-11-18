@@ -56,8 +56,8 @@ describe("published restaurant data", () => {
     }
   });
 
-  it("uses the current total of 84 published restaurants", () => {
-    expect(restaurants).toHaveLength(84);
+  it("uses the current total of 85 published restaurants", () => {
+    expect(restaurants).toHaveLength(85);
   });
 
   it("keeps countryCode for overseas restaurants only", () => {

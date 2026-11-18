@@ -2848,5 +2848,39 @@
     "addedAt": "2026-11-02",
     "mapQuery": "Şehzade Cağ Kebap シルケジ イスタンブール",
     "countryCode": "TR"
+  },
+  {
+    "id": "93",
+    "name": "coupage（クパージュ）",
+    "airport": "羽田",
+    "area": "蒲田",
+    "access": "JR蒲田駅から徒歩3分（東京都大田区蒲田5-42-3 ECHO HILLS 1階）",
+    "genre": "ビストロ",
+    "specialty": null,
+    "crewSummary": [
+      "航空関係者が実際に訪れ、おすすめの店として紹介"
+    ],
+    "hours": "月・火・木 17:00〜24:00（L.O.23:30）／金・土 17:00〜翌1:00（L.O.翌0:30）",
+    "closedDays": "水曜・日曜",
+    "features": {
+      "breakfast": false,
+      "lateNight": true,
+      "solo": null,
+      "walkable": true,
+      "takeout": null,
+      "cashless": true,
+      "quick": null,
+      "drink": true
+    },
+    "tags": [
+      "lateNight",
+      "walkable",
+      "cashless",
+      "drink"
+    ],
+    "statusNote": "営業時間は変更される場合があります。来店前に最新情報をご確認ください。",
+    "checkedAt": "2026-11-18",
+    "addedAt": "2026-11-18",
+    "mapQuery": "coupage（クパージュ） 蒲田 羽田"
   }
 ]
